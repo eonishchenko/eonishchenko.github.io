@@ -1,0 +1,49 @@
+/* line 14, ../sass/criminalRecord.scss */
+.rowSectionCriminal {
+  width: 1002px;
+  margin: 0 auto;
+  background-color: #1550a4;
+  padding-top: 59px;
+  padding-left: 72px;
+}
+
+/* line 22, ../sass/criminalRecord.scss */
+.txtStyleN28 {
+  margin-left: 0px;
+  margin-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size: 31px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* line 31, ../sass/criminalRecord.scss */
+.txtStyleN29 {
+  margin-left: 0px;
+  margin-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 18px;
+}
+
+/* line 41, ../sass/criminalRecord.scss */
+.btnStyleN30 {
+  margin-bottom: 59px;
+}
+/* line 43, ../sass/criminalRecord.scss */
+.btnStyleN30 .upgradeReportBtn {
+  margin-right: 11px;
+}
+
+/* line 45, ../sass/criminalRecord.scss */
+.criminalCircle {
+  background-color: #2b79ec;
+  width: 242px;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  border-radius: 50%;
+  margin-left: 105px;
+}

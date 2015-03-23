@@ -1,0 +1,53 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+//@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){}
+.rowSectionCriminal{
+  width: 1002px;
+  margin: 0 auto;
+  background-color:#1550a4 ;
+  padding-top: 59px;
+  padding-left: 72px;
+}
+
+.txtStyleN28 {
+  margin-left:0px;
+  margin-bottom:38px;
+  font-family: "Proxima Nova";
+  font-size:31px;
+  font-weight: 700;
+  color:#fff;
+
+}
+.txtStyleN29 {
+  margin-left:0px;
+  margin-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size:12px;
+  font-weight: 400;
+  color:#fff;
+  line-height: 18px;
+
+}
+.btnStyleN30{
+  margin-bottom: 59px;
+  .upgradeReportBtn{margin-right: 11px;}
+}
+.criminalCircle{
+  background-color:#2b79ec ;
+  width: 242px;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  border-radius: 50%;
+  margin-left: 105px;
+}

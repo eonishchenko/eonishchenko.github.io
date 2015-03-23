@@ -1,0 +1,117 @@
+/* line 14, ../sass/contactSection.scss */
+.txtStyleN20 {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  font-family: "Proxima Nova";
+  font-size: 30px;
+  font-weight: 700;
+  color: #646c6c;
+}
+
+/* line 23, ../sass/contactSection.scss */
+.txtStyleN21 {
+  margin-left: 14px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  color: #646c6c;
+  line-height: 18px;
+}
+
+/* line 32, ../sass/contactSection.scss */
+.txtStyleN22 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 41, ../sass/contactSection.scss */
+.txtStyleN23 {
+  margin-left: 17px;
+  margin-top: 17px;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 50, ../sass/contactSection.scss */
+.txtStyleN24 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 59, ../sass/contactSection.scss */
+.txtStyleN25 {
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 69, ../sass/contactSection.scss */
+.txtStyleN26 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 78, ../sass/contactSection.scss */
+.txtStyleN27 {
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-bottom: 21px;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 87, ../sass/contactSection.scss */
+.placeN11_ContactInf {
+  padding-bottom: 30px;
+}
+
+/* line 89, ../sass/contactSection.scss */
+.placeN12_ContactInf {
+  padding-bottom: 10px;
+}
+
+/* line 90, ../sass/contactSection.scss */
+.placeN13_ContactInf {
+  padding-bottom: 10px;
+}
+
+/* line 91, ../sass/contactSection.scss */
+.placeN14_ContactInf {
+  padding-bottom: 28px;
+}
+
+/* line 92, ../sass/contactSection.scss */
+.placeN15_ContactInf {
+  text-align: right;
+}
+
+/* line 93, ../sass/contactSection.scss */
+.placeN12 {
+  margin-right: 18px;
+}
+
+/* line 97, ../sass/contactSection.scss */
+.placeN14 {
+  margin-right: 10px;
+}

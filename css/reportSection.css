@@ -1,0 +1,46 @@
+/* line 15, ../sass/reportSection.scss */
+.upgradeReportBtn {
+  background-color: #1ab86b;
+  color: #fff;
+  width: 171px;
+  height: 40px;
+  border-radius: 5px;
+  border-top-color: #4fcb92;
+  border-right-color: #008249;
+  border-bottom-color: #008249;
+  border-left-color: #4fcb92;
+}
+
+/* line 27, ../sass/reportSection.scss */
+.btnR {
+  border: none;
+  background-color: #fff;
+  margin-left: 30px !important;
+  padding: 0;
+}
+/* line 28, ../sass/reportSection.scss */
+.btnR .btnSave {
+  width: 28px;
+  height: 22px;
+}
+/* line 29, ../sass/reportSection.scss */
+.btnR .btnPrint {
+  width: 23px;
+  height: 20px;
+}
+/* line 30, ../sass/reportSection.scss */
+.btnR .btnDownload {
+  width: 23px;
+  height: 20px;
+}
+/* line 31, ../sass/reportSection.scss */
+.btnR .btnEmail {
+  width: 24px;
+  height: 18px;
+}
+
+/* line 34, ../sass/reportSection.scss */
+.reportSect {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}

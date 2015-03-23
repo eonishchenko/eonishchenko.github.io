@@ -1,0 +1,64 @@
+/* line 14, ../sass/addressHisotory.scss */
+.mapAddr {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/* line 19, ../sass/addressHisotory.scss */
+.txtStyleN16 {
+  margin-left: 58px;
+  margin-top: 34px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 700;
+  color: #2b79ec;
+}
+
+/* line 28, ../sass/addressHisotory.scss */
+.txtStyleN17 {
+  margin-right: 7px;
+  margin-top: 37px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 700;
+  color: #1ab86b;
+  padding-right: 35px;
+  text-align: right;
+}
+
+/* line 39, ../sass/addressHisotory.scss */
+.txtStyleN18 {
+  margin-top: 37px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #adadad;
+  padding-right: 0px;
+  text-align: right;
+}
+
+/* line 49, ../sass/addressHisotory.scss */
+.txtStyleN19 {
+  margin-top: 37px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2b79ec;
+  padding-right: 30px;
+  text-align: right;
+}
+
+/* line 59, ../sass/addressHisotory.scss */
+.placeN8_Addr {
+  padding-bottom: 8px;
+}
+
+/* line 60, ../sass/addressHisotory.scss */
+.placeN9_Addr {
+  padding-bottom: 10px;
+}
+
+/* line 61, ../sass/addressHisotory.scss */
+.placeN10_Addr {
+  padding-bottom: 31px;
+}

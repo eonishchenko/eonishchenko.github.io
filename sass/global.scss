@@ -1,0 +1,86 @@
+@import "compass/reset";
+@import "fonts";
+@import "header";
+@import "reportSection";
+@import "contactSection";
+@import "criminalRecord";
+@import "phoneNumbers";
+@import "caption";
+@import "relatives";
+@import "neighbors";
+@import "xShell";
+@import "footer";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+//@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){}
+
+
+
+.extrabold{
+  font-family: "Proxima Nova";
+  font-weight: 900;
+}
+.normal{
+  font-family: "Proxima Nova";
+  font-weight: normal;
+}
+.bold{
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+.semibold{
+  font-family: "Proxima Nova";
+  font-weight: 600;
+}
+.light{
+  font-family: "Proxima Nova";
+  font-weight: 300;
+}
+.container{
+  max-width: 1032px !important;
+
+}
+.rowSection{  //Отступы слева и справа
+  padding-left: 27px;
+  padding-right:28px;
+}
+.infoIcon2 {
+text-align: right;
+
+}
+.rowBlock{  //Серый Блок
+  background-color:#f5f5f5 ;
+  width:1002px ;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-left: 1px solid #dee1e3;
+  border-right: 1px solid #dee1e3;
+  &.neighBorder{border-bottom: 1px solid #dee1e3}
+
+}
+.rowBlockxshell{
+  background-color:#fff ;
+  width:1002px ;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom:59px ;
+}
+
+.rowReport{
+  background-color:#fff ;
+  width:1002px ;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom:0px ;
+
+}

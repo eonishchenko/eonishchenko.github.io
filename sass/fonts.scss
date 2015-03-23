@@ -1,0 +1,8 @@
+@import "compass/css3/font-face";
+@include font-face("Proxima Nova",font-files('/task/fonts/ProximaNova-Light.otf'),"",300);
+@include font-face("Proxima Nova",font-files('/task/fonts/proxima-nova-regular.ttf'),"",normal);
+//@include font-face("Proxima Nova",font-files('/task/fonts/proxima-nova-regular.eot'),"",normal);
+@include font-face("Proxima Nova",font-files('/task/fonts/ProximaNova-Semibold.otf'),"",600);
+@include font-face("Proxima Nova",font-files('/task/fonts/ProximaNova-Bold.otf'),"",bold);
+@include font-face("Proxima Nova",font-files('/task/fonts/ProximaNova-Extrabold.otf'),"",900);
+

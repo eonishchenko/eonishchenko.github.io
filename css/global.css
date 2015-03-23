@@ -1,0 +1,1134 @@
+/* line 5, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('//fonts/');
+  src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/ProximaNova-Light.otf) format('opentype');
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('//fonts/');
+  src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/proxima-nova-regular.ttf) format('truetype');
+  font-weight: normal;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('//fonts/');
+  src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/ProximaNova-Semibold.otf) format('opentype');
+  font-weight: 600;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('//fonts/');
+  src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/ProximaNova-Bold.otf) format('opentype');
+  font-weight: bold;
+}
+@font-face {
+  font-family: "Proxima Nova";
+  src: url('//fonts/');
+  src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/ProximaNova-Extrabold.otf) format('opentype');
+  font-weight: 900;
+}
+/* line 15, ../sass/header.scss */
+.headerBG {
+  background-color: #fbfbfb;
+  text-align: center;
+  border-bottom: 1px solid #dee1e3;
+}
+/* line 20, ../sass/header.scss */
+.headerBG input {
+  background-color: #ffffff;
+  color: #646c6c;
+  margin-top: 20px;
+  margin-bottom: 22px;
+}
+/* line 30, ../sass/header.scss */
+.headerBG .sectionInput {
+  display: inline-block;
+  height: 55px;
+  border-radius: 5px;
+  border: 1px solid #d4d6d8;
+}
+/* line 37, ../sass/header.scss */
+.headerBG .container {
+  max-height: 1032px;
+}
+
+/* line 44, ../sass/header.scss */
+.searchBtn {
+  background-color: #2b79ec;
+  height: 55px;
+  width: 67px;
+  vertical-align: middle;
+  border: none;
+}
+
+/* line 53, ../sass/header.scss */
+.rowHeader {
+  background-color: #fafafa;
+  border-bottom: 1px solid #dee1e3;
+}
+
+/* line 58, ../sass/header.scss */
+.rowHeaderContent {
+  width: 1002px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+/* line 64, ../sass/header.scss */
+.inputKindSearch {
+  display: inline-block;
+}
+
+/* line 70, ../sass/header.scss */
+.inputSearch {
+  display: inline-block;
+  padding-left: 20px;
+  margin-bottom: 50px;
+}
+
+/* line 76, ../sass/header.scss */
+.btnSearch {
+  display: inline-block;
+  background-color: #2b79ec;
+  margin-top: 25px;
+  padding-top: 12px;
+  padding-bottom: 15px;
+  padding-left: 19px;
+  padding-right: 19px;
+  border-radius: 5px;
+  border-top: 1px solid #a2c3f6;
+  border-right: 1px solid #2657c0;
+  border-bottom: 1px solid #1b4ca2;
+  border-left: 1px solid #6898ef;
+}
+/* line 86, ../sass/header.scss */
+.btnSearch input {
+  margin-bottom: -5px;
+}
+
+/* line 97, ../sass/header.scss */
+.inputCollect {
+  display: inline;
+  border-radius: 5px;
+  border: 1px solid #d4d6d8;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+/* line 109, ../sass/header.scss */
+.txtStyleN40 {
+  font-family: "Proxima Nova";
+  margin-left: 20px;
+  margin-right: 10px;
+  border: none;
+  font-size: 14px;
+  color: #646c6c;
+  font-weight: 900;
+  width: 166px;
+}
+/* line 118, ../sass/header.scss */
+.txtStyleN40 :after {
+  content: "";
+  background: url("img/dropdownIcon.png") no-repeat right;
+}
+
+/* line 121, ../sass/header.scss */
+.txtStyleN41 {
+  font-family: "Proxima Nova";
+  color: #646c6c;
+  font-size: 14px;
+  font-weight: 900;
+  border: none;
+}
+
+/* line 130, ../sass/header.scss */
+.txtStyleN42 {
+  font-family: "Proxima Nova";
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  width: 293px;
+}
+
+/* line 15, ../sass/reportSection.scss */
+.upgradeReportBtn {
+  background-color: #1ab86b;
+  color: #fff;
+  width: 171px;
+  height: 40px;
+  border-radius: 5px;
+  border-top-color: #4fcb92;
+  border-right-color: #008249;
+  border-bottom-color: #008249;
+  border-left-color: #4fcb92;
+}
+
+/* line 27, ../sass/reportSection.scss */
+.btnR {
+  border: none;
+  background-color: #fff;
+  margin-left: 30px !important;
+  padding: 0;
+}
+/* line 28, ../sass/reportSection.scss */
+.btnR .btnSave {
+  width: 28px;
+  height: 22px;
+}
+/* line 29, ../sass/reportSection.scss */
+.btnR .btnPrint {
+  width: 23px;
+  height: 20px;
+}
+/* line 30, ../sass/reportSection.scss */
+.btnR .btnDownload {
+  width: 23px;
+  height: 20px;
+}
+/* line 31, ../sass/reportSection.scss */
+.btnR .btnEmail {
+  width: 24px;
+  height: 18px;
+}
+
+/* line 34, ../sass/reportSection.scss */
+.reportSect {
+  margin-top: 8px;
+  margin-bottom: 8px;
+}
+
+/* line 14, ../sass/contactSection.scss */
+.txtStyleN20 {
+  margin-left: 14px;
+  margin-bottom: 20px;
+  font-family: "Proxima Nova";
+  font-size: 30px;
+  font-weight: 700;
+  color: #646c6c;
+}
+
+/* line 23, ../sass/contactSection.scss */
+.txtStyleN21 {
+  margin-left: 14px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  color: #646c6c;
+  line-height: 18px;
+}
+
+/* line 32, ../sass/contactSection.scss */
+.txtStyleN22 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 41, ../sass/contactSection.scss */
+.txtStyleN23 {
+  margin-left: 17px;
+  margin-top: 17px;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 50, ../sass/contactSection.scss */
+.txtStyleN24 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 59, ../sass/contactSection.scss */
+.txtStyleN25 {
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 69, ../sass/contactSection.scss */
+.txtStyleN26 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 78, ../sass/contactSection.scss */
+.txtStyleN27 {
+  margin-left: 17px;
+  margin-top: 17px;
+  margin-bottom: 21px;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 87, ../sass/contactSection.scss */
+.placeN11_ContactInf {
+  padding-bottom: 30px;
+}
+
+/* line 89, ../sass/contactSection.scss */
+.placeN12_ContactInf {
+  padding-bottom: 10px;
+}
+
+/* line 90, ../sass/contactSection.scss */
+.placeN13_ContactInf {
+  padding-bottom: 10px;
+}
+
+/* line 91, ../sass/contactSection.scss */
+.placeN14_ContactInf {
+  padding-bottom: 28px;
+}
+
+/* line 92, ../sass/contactSection.scss */
+.placeN15_ContactInf {
+  text-align: right;
+}
+
+/* line 93, ../sass/contactSection.scss */
+.placeN12 {
+  margin-right: 18px;
+}
+
+/* line 97, ../sass/contactSection.scss */
+.placeN14 {
+  margin-right: 10px;
+}
+
+/* line 14, ../sass/criminalRecord.scss */
+.rowSectionCriminal {
+  width: 1002px;
+  margin: 0 auto;
+  background-color: #1550a4;
+  padding-top: 59px;
+  padding-left: 72px;
+}
+
+/* line 22, ../sass/criminalRecord.scss */
+.txtStyleN28 {
+  margin-left: 0px;
+  margin-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size: 31px;
+  font-weight: 700;
+  color: #fff;
+}
+
+/* line 31, ../sass/criminalRecord.scss */
+.txtStyleN29 {
+  margin-left: 0px;
+  margin-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 18px;
+}
+
+/* line 41, ../sass/criminalRecord.scss */
+.btnStyleN30 {
+  margin-bottom: 59px;
+}
+/* line 43, ../sass/criminalRecord.scss */
+.btnStyleN30 .upgradeReportBtn {
+  margin-right: 11px;
+}
+
+/* line 45, ../sass/criminalRecord.scss */
+.criminalCircle {
+  background-color: #2b79ec;
+  width: 242px;
+  text-align: center;
+  padding-top: 85px;
+  padding-bottom: 85px;
+  border-radius: 50%;
+  margin-left: 105px;
+}
+
+/* line 15, ../sass/phoneNumbers.scss */
+.phoneNumbersHeader {
+  background-color: #2b79ec;
+}
+/* line 16, ../sass/phoneNumbers.scss */
+.phoneNumbersHeader .M1 {
+  text-align: right;
+}
+/* line 17, ../sass/phoneNumbers.scss */
+.phoneNumbersHeader .M11 {
+  font-family: "Proxima Nova";
+  color: #fff;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 26, ../sass/phoneNumbers.scss */
+.phoneNumbersBody {
+  width: 1002px;
+  background-color: #f5f5f5;
+}
+/* line 29, ../sass/phoneNumbers.scss */
+.phoneNumbersBody .HP {
+  background-color: #ffffff;
+  margin-top: 30px;
+  margin-left: 27px;
+  margin-right: 27px;
+  border-radius: 5px;
+  border: 1px solid #dee1e3;
+  box-shadow: 2px 2px 0 #e9e9e9;
+  width: 456px;
+}
+/* line 37, ../sass/phoneNumbers.scss */
+.phoneNumbersBody .HP .hpLegend {
+  font-family: "Proxima Nova";
+  color: #969696;
+  font-size: 9px;
+  font-weight: 400;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 17px;
+}
+/* line 46, ../sass/phoneNumbers.scss */
+.phoneNumbersBody .HP .hpDetail {
+  font-family: "Proxima Nova";
+  color: #2b79ec;
+  font-weight: 400;
+  text-align: left;
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+/* line 55, ../sass/phoneNumbers.scss */
+.phoneNumbersBody .HP .hpIcon {
+  margin-top: 20px;
+  text-align: center;
+}
+/* line 61, ../sass/phoneNumbers.scss */
+.phoneNumbersBody .WP {
+  background-color: #ffffff;
+  margin-top: 30px;
+}
+
+/* line 67, ../sass/phoneNumbers.scss */
+.btnStyle {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dee1e3;
+  -webkit-box-shadow: 2px 2px 0px #e9e9e9;
+  -moz-box-shadow: 2px 2px 0px #e9e9e9;
+  box-shadow: 2px 2px 0px #e9e9e9;
+}
+
+/* line 75, ../sass/phoneNumbers.scss */
+.placeN1 {
+  width: 456px;
+  margin-top: 30px;
+  margin-left: 14px;
+}
+
+/* line 82, ../sass/phoneNumbers.scss */
+.placeN2 {
+  width: 456px;
+  margin-top: 30px;
+}
+
+/* line 87, ../sass/phoneNumbers.scss */
+.placeN3 {
+  margin-bottom: 21px;
+}
+
+/* line 90, ../sass/phoneNumbers.scss */
+.placeN4 {
+  margin-bottom: 10px;
+}
+
+/* line 93, ../sass/phoneNumbers.scss */
+.placeN5 {
+  margin-bottom: 10px;
+}
+
+/* line 96, ../sass/phoneNumbers.scss */
+.placeN6 {
+  margin-bottom: 10px;
+}
+
+/* line 100, ../sass/phoneNumbers.scss */
+.placeN8 {
+  margin-bottom: 10px;
+}
+
+/* line 103, ../sass/phoneNumbers.scss */
+.placeN9 {
+  margin-bottom: 10px;
+}
+
+/* line 106, ../sass/phoneNumbers.scss */
+.placeN10 {
+  margin-bottom: 10px;
+}
+
+/* line 123, ../sass/phoneNumbers.scss */
+.placeN1_Numbers {
+  padding-right: 18px;
+  padding-bottom: 30px;
+}
+
+/* line 128, ../sass/phoneNumbers.scss */
+.placeN2_Numbers {
+  padding-left: 18px;
+  padding-bottom: 30px;
+}
+
+/* line 150, ../sass/phoneNumbers.scss */
+.btnIcon {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 25px;
+}
+
+/* line 155, ../sass/phoneNumbers.scss */
+.profileIconContact {
+  background-color: #d4d6d8;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+
+/* line 167, ../sass/phoneNumbers.scss */
+.txtStyleN1 {
+  margin-left: 17px;
+  margin-top: 20px;
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+}
+
+/* line 176, ../sass/phoneNumbers.scss */
+.txtStyleN2 {
+  margin-left: 17px;
+  margin-top: 17px;
+  font-family: "Proxima Nova";
+  font-size: 22px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 14, ../sass/caption.scss */
+.rowCaption {
+  background-color: #2b79ec;
+  width: 1002px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  margin: 0 auto;
+}
+/* line 24, ../sass/caption.scss */
+.rowCaption .criminalCaption {
+  color: #9ec1f4;
+}
+
+/* line 15, ../sass/relatives.scss */
+.txtStyleN7 {
+  margin-left: 17px;
+  margin-top: 37px;
+  font-family: "Proxima Nova";
+  font-size: 17px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 24, ../sass/relatives.scss */
+.txtStyleN8 {
+  margin-top: 40px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: bold;
+  color: #646c6c;
+}
+
+/* line 33, ../sass/relatives.scss */
+.txtStyleN9 {
+  margin-top: 30px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #646c6c;
+  padding-right: 64px;
+}
+
+/* line 43, ../sass/relatives.scss */
+.txtStyleN10 {
+  margin-top: 40px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2b79ec;
+  text-align: right;
+  padding-right: 33px;
+}
+
+/* line 53, ../sass/relatives.scss */
+.txtStyleN11 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  text-align: center;
+}
+
+/* line 64, ../sass/relatives.scss */
+.txtStyleN12 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  padding-right: 60px;
+  text-align: right;
+}
+
+/* line 75, ../sass/relatives.scss */
+.txtStyleN13 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  text-align: left;
+}
+
+/* line 86, ../sass/relatives.scss */
+.txtStyleN14 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  padding-right: 35px;
+  text-align: right;
+}
+
+/* line 97, ../sass/relatives.scss */
+.txtStyleN15 {
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2b79ec;
+  padding-right: 35px;
+  text-align: left;
+}
+
+/* line 108, ../sass/relatives.scss */
+.placeN3_Relatives {
+  padding-bottom: 21px;
+}
+
+/* line 109, ../sass/relatives.scss */
+.placeN4_Relatives {
+  padding-bottom: 10px;
+}
+
+/* line 110, ../sass/relatives.scss */
+.placeN5_Relatives {
+  padding-bottom: 10px;
+}
+
+/* line 111, ../sass/relatives.scss */
+.placeN6_Relatives {
+  padding-bottom: 30px;
+}
+
+/* line 112, ../sass/relatives.scss */
+.placeN7_Relatives {
+  padding-bottom: 28px;
+}
+
+/* line 14, ../sass/_neighbors.scss */
+.txtStyleN7 {
+  margin-left: 17px;
+  margin-top: 37px;
+  font-family: "Proxima Nova";
+  font-size: 17px;
+  font-weight: 400;
+  color: #2b79ec;
+}
+
+/* line 23, ../sass/_neighbors.scss */
+.txtStyleN8 {
+  margin-top: 40px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: bold;
+  color: #646c6c;
+}
+
+/* line 32, ../sass/_neighbors.scss */
+.txtStyleN9 {
+  margin-top: 30px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #646c6c;
+  padding-right: 64px;
+}
+
+/* line 42, ../sass/_neighbors.scss */
+.txtStyleN10 {
+  margin-top: 40px;
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2b79ec;
+  text-align: right;
+  padding-right: 33px;
+}
+
+/* line 52, ../sass/_neighbors.scss */
+.txtStyleN11 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  text-align: center;
+}
+
+/* line 63, ../sass/_neighbors.scss */
+.txtStyleN12 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  padding-right: 60px;
+  text-align: right;
+}
+
+/* line 74, ../sass/_neighbors.scss */
+.txtStyleN13 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  text-align: left;
+}
+
+/* line 85, ../sass/_neighbors.scss */
+.txtStyleN14 {
+  font-family: "Proxima Nova";
+  font-size: 10px;
+  font-weight: 400;
+  color: #969696;
+  padding-right: 35px;
+  text-align: right;
+}
+
+/* line 96, ../sass/_neighbors.scss */
+.txtStyleN15 {
+  font-family: "Proxima Nova";
+  font-size: 12px;
+  font-weight: 400;
+  color: #2b79ec;
+  padding-right: 35px;
+  text-align: left;
+}
+
+/* line 107, ../sass/_neighbors.scss */
+.placeN3_Relatives {
+  padding-bottom: 21px;
+}
+
+/* line 108, ../sass/_neighbors.scss */
+.placeN4_Relatives {
+  padding-bottom: 10px;
+}
+
+/* line 109, ../sass/_neighbors.scss */
+.placeN5_Relatives {
+  padding-bottom: 10px;
+}
+
+/* line 110, ../sass/_neighbors.scss */
+.placeN6_Relatives {
+  padding-bottom: 30px;
+}
+
+/* line 111, ../sass/_neighbors.scss */
+.placeN7_Relatives {
+  padding-bottom: 28px;
+}
+
+/* line 15, ../sass/_xShell.scss */
+.txtStyleN31 {
+  margin-top: 61px;
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 26, ../sass/_xShell.scss */
+.txtStyleN32 {
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 36, ../sass/_xShell.scss */
+.txtStyleN33 {
+  margin-top: 61px;
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 26px;
+  font-weight: 700;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 47, ../sass/_xShell.scss */
+.txtStyleN34 {
+  margin-bottom: 17px;
+  font-family: "Proxima Nova";
+  font-size: 18px;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+}
+
+/* line 57, ../sass/_xShell.scss */
+.txtStyleN35 {
+  margin-left: 119px;
+  padding-top: 23px;
+  padding-bottom: 16px;
+  margin-bottom: 59px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 700;
+  color: #2b79ec;
+  text-align: center;
+}
+
+/* line 68, ../sass/_xShell.scss */
+.txtStyleN36 {
+  margin-left: 119px;
+  padding-top: 23px;
+  padding-bottom: 16px;
+  margin-bottom: 59px;
+  font-family: "Proxima Nova";
+  font-size: 16px;
+  font-weight: 700;
+  color: #2b79ec;
+  text-align: center;
+}
+
+/* line 79, ../sass/_xShell.scss */
+.placeN16_Xshell {
+  background-color: #2b79ec;
+  border-radius: 5px;
+  margin-right: 15px;
+  width: 485px;
+  height: 345px;
+}
+
+/* line 85, ../sass/_xShell.scss */
+.placeN17_Xshell {
+  background-color: #1548a0;
+  border-radius: 5px;
+  margin-left: 15px;
+  width: 485px;
+  height: 345px;
+}
+
+/* line 91, ../sass/_xShell.scss */
+.placeN18_Xshell {
+  background-color: #1548a0;
+  border-radius: 5px;
+  margin-left: 10px;
+  width: 485px;
+}
+
+/* line 97, ../sass/_xShell.scss */
+.btnXshellUpgrade {
+  border-radius: 5px;
+  background-color: #ffffff;
+  width: 242px;
+}
+
+/* line 103, ../sass/_xShell.scss */
+.btnUp {
+  background-color: #e7e7e7;
+  position: relative;
+  right: -545px;
+  top: -10px;
+  width: 58px;
+  text-align: center;
+  border-radius: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+/* line 15, ../sass/footer.scss */
+.rowFooterSection {
+  width: 100%;
+  background-color: #f6f6f6;
+}
+
+/* line 19, ../sass/footer.scss */
+.rowFooterContent {
+  width: 1099px;
+  background-color: #f6f6f6;
+  padding-top: 59px;
+  margin: 0 auto;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+/* line 27, ../sass/footer.scss */
+.liStyleN1 {
+  text-align: center;
+  padding-bottom: 38px;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 33, ../sass/footer.scss */
+.liStyleN1 li {
+  display: inline;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+/* line 36, ../sass/footer.scss */
+.liStyleN1 li:nth-child(1) {
+  font-size: 14px;
+  font-weight: 700;
+}
+/* line 40, ../sass/footer.scss */
+.liStyleN1 a {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 45, ../sass/footer.scss */
+.liStyleN2 {
+  text-align: center;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  list-style-type: disc;
+  float: left;
+  margin-left: 25px;
+  margin-bottom: 37px;
+}
+/* line 57, ../sass/footer.scss */
+.liStyleN2 li {
+  display: inline;
+}
+/* line 59, ../sass/footer.scss */
+.liStyleN2 li.disk:before {
+  content: "\2022";
+  color: #a3a3a3;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+/* line 63, ../sass/footer.scss */
+.txtStyleN37 {
+  text-align: center;
+  font-family: "Proxima Nova";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #808080;
+  margin-bottom: 41px;
+}
+
+/* line 72, ../sass/footer.scss */
+.txtStyleN38 {
+  text-align: center;
+}
+/* line 74, ../sass/footer.scss */
+.txtStyleN38 img {
+  margin-right: 34px;
+  margin-top: 31px;
+  margin-bottom: 41px;
+}
+
+/* line 81, ../sass/footer.scss */
+.txtStyleN39 {
+  font-family: "Proxima Nova";
+  text-align: center;
+  color: #a7a7a7;
+  font-size: 12px;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+/* line 29, ../sass/global.scss */
+.extrabold {
+  font-family: "Proxima Nova";
+  font-weight: 900;
+}
+
+/* line 33, ../sass/global.scss */
+.normal {
+  font-family: "Proxima Nova";
+  font-weight: normal;
+}
+
+/* line 37, ../sass/global.scss */
+.bold {
+  font-family: "Proxima Nova";
+  font-weight: bold;
+}
+
+/* line 41, ../sass/global.scss */
+.semibold {
+  font-family: "Proxima Nova";
+  font-weight: 600;
+}
+
+/* line 45, ../sass/global.scss */
+.light {
+  font-family: "Proxima Nova";
+  font-weight: 300;
+}
+
+/* line 49, ../sass/global.scss */
+.container {
+  max-width: 1032px !important;
+}
+
+/* line 53, ../sass/global.scss */
+.rowSection {
+  padding-left: 27px;
+  padding-right: 28px;
+}
+
+/* line 57, ../sass/global.scss */
+.infoIcon2 {
+  text-align: right;
+}
+
+/* line 61, ../sass/global.scss */
+.rowBlock {
+  background-color: #f5f5f5;
+  width: 1002px;
+  margin: 0 auto;
+  padding-top: 30px;
+  border-left: 1px solid #dee1e3;
+  border-right: 1px solid #dee1e3;
+}
+/* line 68, ../sass/global.scss */
+.rowBlock.neighBorder {
+  border-bottom: 1px solid #dee1e3;
+}
+
+/* line 71, ../sass/global.scss */
+.rowBlockxshell {
+  background-color: #fff;
+  width: 1002px;
+  margin: 0 auto;
+  padding-top: 30px;
+  padding-bottom: 59px;
+}
+
+/* line 79, ../sass/global.scss */
+.rowReport {
+  background-color: #fff;
+  width: 1002px;
+  margin: 0 auto;
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
