@@ -1,16 +1,35 @@
-/* line 14, ../sass/caption.scss */
-.rowCaption {
-  background-color: #2b79ec;
-  width: 1002px;
-  font-family: "Proxima Nova";
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin: 0 auto;
+/* line 5, ../sass/caption.scss */
+.styleN11_infoIcon {
+  text-align: right;
 }
-/* line 24, ../sass/caption.scss */
-.rowCaption .criminalCaption {
-  color: #9ec1f4;
+
+@media (max-width: 767px) {
+  /* line 13, ../sass/caption.scss */
+  .styleN10_Caption {
+    background-color: #2b79ec;
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 30px 32px 35px 25px;
+  }
+  /* line 20, ../sass/caption.scss */
+  .styleN10_Caption .criminalCaption {
+    color: #9ec1f4;
+  }
+}
+@media (min-width: 768px) {
+  /* line 28, ../sass/caption.scss */
+  .styleN10_Caption {
+    background-color: #2b79ec;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 30px;
+  }
+  /* line 35, ../sass/caption.scss */
+  .styleN10_Caption .criminalCaption {
+    color: #9ec1f4;
+  }
 }

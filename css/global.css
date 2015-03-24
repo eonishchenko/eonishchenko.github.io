@@ -94,66 +94,78 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 900;
 }
 /* line 15, ../sass/header.scss */
-.headerBG {
-  background-color: #fbfbfb;
-  text-align: center;
-  border-bottom: 1px solid #dee1e3;
-}
-/* line 20, ../sass/header.scss */
-.headerBG input {
-  background-color: #ffffff;
-  color: #646c6c;
-  margin-top: 20px;
-  margin-bottom: 22px;
-}
-/* line 30, ../sass/header.scss */
-.headerBG .sectionInput {
-  display: inline-block;
-  height: 55px;
-  border-radius: 5px;
-  border: 1px solid #d4d6d8;
-}
-/* line 37, ../sass/header.scss */
-.headerBG .container {
-  max-height: 1032px;
-}
-
-/* line 44, ../sass/header.scss */
-.searchBtn {
-  background-color: #2b79ec;
-  height: 55px;
-  width: 67px;
-  vertical-align: middle;
-  border: none;
-}
-
-/* line 53, ../sass/header.scss */
-.rowHeader {
+.styleN1_rowHeader {
   background-color: #fafafa;
   border-bottom: 1px solid #dee1e3;
 }
 
-/* line 58, ../sass/header.scss */
-.rowHeaderContent {
+/* line 20, ../sass/header.scss */
+.styleN2_rowHeaderContent {
   width: 1002px;
   margin: 0 auto;
-  padding-top: 20px;
 }
 
-/* line 64, ../sass/header.scss */
-.inputKindSearch {
+/* line 28, ../sass/header.scss */
+.styleN3_inputCollect {
+  display: inline;
+  border-radius: 5px;
+  border: 1px solid #d4d6d8;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  background-color: #ffffff;
+  margin-right: 10px;
+}
+
+/* line 38, ../sass/header.scss */
+.styleN4_inputKindSearch {
   display: inline-block;
 }
 
-/* line 70, ../sass/header.scss */
-.inputSearch {
+/* line 42, ../sass/header.scss */
+.styleN5_selectTxt {
+  font-family: "Proxima Nova";
+  margin-left: 20px;
+  margin-right: 10px;
+  border: none;
+  font-size: 19px;
+  color: #646c6c;
+  font-weight: 700;
+  width: 166px;
+}
+/* line 52, ../sass/header.scss */
+.styleN5_selectTxt :after {
+  content: "";
+  background: url("img/dropdownIcon.png") no-repeat right;
+}
+
+/* line 56, ../sass/header.scss */
+.styleN6_inputSearch {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 50px;
 }
 
-/* line 76, ../sass/header.scss */
-.btnSearch {
+/* line 62, ../sass/header.scss */
+.styleN7_labelFindNear {
+  font-family: "Proxima Nova";
+  color: #646c6c;
+  font-size: 19px;
+  font-weight: 900;
+  border: none;
+}
+
+/* line 70, ../sass/header.scss */
+.styleN8_inputFindNear {
+  font-family: "Proxima Nova";
+  color: #b3b3b3;
+  font-size: 14px;
+  font-weight: 500;
+  border: none;
+  width: 283px;
+}
+
+/* line 80, ../sass/header.scss */
+.styleN9_btnSearch {
   display: inline-block;
   background-color: #2b79ec;
   margin-top: 25px;
@@ -167,56 +179,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 1px solid #1b4ca2;
   border-left: 1px solid #6898ef;
 }
-/* line 86, ../sass/header.scss */
-.btnSearch input {
-  margin-bottom: -5px;
-}
-
-/* line 97, ../sass/header.scss */
-.inputCollect {
-  display: inline;
-  border-radius: 5px;
-  border: 1px solid #d4d6d8;
-  padding-top: 18px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-  margin-right: 10px;
-}
-
-/* line 109, ../sass/header.scss */
-.txtStyleN40 {
-  font-family: "Proxima Nova";
-  margin-left: 20px;
-  margin-right: 10px;
+/* line 90, ../sass/header.scss */
+.styleN9_btnSearch input {
+  background: url("../img/searchIcon.png") no-repeat;
   border: none;
-  font-size: 14px;
-  color: #646c6c;
-  font-weight: 900;
-  width: 166px;
-}
-/* line 118, ../sass/header.scss */
-.txtStyleN40 :after {
-  content: "";
-  background: url("img/dropdownIcon.png") no-repeat right;
-}
-
-/* line 121, ../sass/header.scss */
-.txtStyleN41 {
-  font-family: "Proxima Nova";
-  color: #646c6c;
-  font-size: 14px;
-  font-weight: 900;
-  border: none;
-}
-
-/* line 130, ../sass/header.scss */
-.txtStyleN42 {
-  font-family: "Proxima Nova";
-  color: #b3b3b3;
-  font-size: 14px;
-  font-weight: 500;
-  border: none;
-  width: 293px;
+  width: 27px;
 }
 
 /* line 15, ../sass/reportSection.scss */
@@ -434,192 +401,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 105px;
 }
 
-/* line 15, ../sass/phoneNumbers.scss */
-.phoneNumbersHeader {
-  background-color: #2b79ec;
-}
-/* line 16, ../sass/phoneNumbers.scss */
-.phoneNumbersHeader .M1 {
+/* line 5, ../sass/caption.scss */
+.styleN11_infoIcon {
   text-align: right;
 }
-/* line 17, ../sass/phoneNumbers.scss */
-.phoneNumbersHeader .M11 {
-  font-family: "Proxima Nova";
-  color: #fff;
-  font-weight: 700;
-  font-size: 16px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
-/* line 26, ../sass/phoneNumbers.scss */
-.phoneNumbersBody {
-  width: 1002px;
-  background-color: #f5f5f5;
+@media (max-width: 767px) {
+  /* line 13, ../sass/caption.scss */
+  .styleN10_Caption {
+    background-color: #2b79ec;
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 30px 32px 35px 25px;
+  }
+  /* line 20, ../sass/caption.scss */
+  .styleN10_Caption .criminalCaption {
+    color: #9ec1f4;
+  }
 }
-/* line 29, ../sass/phoneNumbers.scss */
-.phoneNumbersBody .HP {
-  background-color: #ffffff;
-  margin-top: 30px;
-  margin-left: 27px;
-  margin-right: 27px;
-  border-radius: 5px;
-  border: 1px solid #dee1e3;
-  box-shadow: 2px 2px 0 #e9e9e9;
-  width: 456px;
+@media (min-width: 768px) {
+  /* line 28, ../sass/caption.scss */
+  .styleN10_Caption {
+    background-color: #2b79ec;
+    font-family: "Proxima Nova";
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+    padding: 15px 30px;
+  }
+  /* line 35, ../sass/caption.scss */
+  .styleN10_Caption .criminalCaption {
+    color: #9ec1f4;
+  }
 }
-/* line 37, ../sass/phoneNumbers.scss */
-.phoneNumbersBody .HP .hpLegend {
-  font-family: "Proxima Nova";
-  color: #969696;
-  font-size: 9px;
-  font-weight: 400;
-  text-align: left;
-  margin-top: 20px;
-  margin-bottom: 17px;
-}
-/* line 46, ../sass/phoneNumbers.scss */
-.phoneNumbersBody .HP .hpDetail {
-  font-family: "Proxima Nova";
-  color: #2b79ec;
-  font-weight: 400;
-  text-align: left;
-  font-size: 22px;
-  margin-bottom: 20px;
-}
-/* line 55, ../sass/phoneNumbers.scss */
-.phoneNumbersBody .HP .hpIcon {
-  margin-top: 20px;
-  text-align: center;
-}
-/* line 61, ../sass/phoneNumbers.scss */
-.phoneNumbersBody .WP {
-  background-color: #ffffff;
-  margin-top: 30px;
-}
-
-/* line 67, ../sass/phoneNumbers.scss */
-.btnStyle {
-  border-radius: 5px;
-  background-color: #fff;
-  border: 1px solid #dee1e3;
-  -webkit-box-shadow: 2px 2px 0px #e9e9e9;
-  -moz-box-shadow: 2px 2px 0px #e9e9e9;
-  box-shadow: 2px 2px 0px #e9e9e9;
-}
-
-/* line 75, ../sass/phoneNumbers.scss */
-.placeN1 {
-  width: 456px;
-  margin-top: 30px;
-  margin-left: 14px;
-}
-
-/* line 82, ../sass/phoneNumbers.scss */
-.placeN2 {
-  width: 456px;
-  margin-top: 30px;
-}
-
-/* line 87, ../sass/phoneNumbers.scss */
-.placeN3 {
-  margin-bottom: 21px;
-}
-
-/* line 90, ../sass/phoneNumbers.scss */
-.placeN4 {
-  margin-bottom: 10px;
-}
-
-/* line 93, ../sass/phoneNumbers.scss */
-.placeN5 {
-  margin-bottom: 10px;
-}
-
-/* line 96, ../sass/phoneNumbers.scss */
-.placeN6 {
-  margin-bottom: 10px;
-}
-
-/* line 100, ../sass/phoneNumbers.scss */
-.placeN8 {
-  margin-bottom: 10px;
-}
-
-/* line 103, ../sass/phoneNumbers.scss */
-.placeN9 {
-  margin-bottom: 10px;
-}
-
-/* line 106, ../sass/phoneNumbers.scss */
-.placeN10 {
-  margin-bottom: 10px;
-}
-
-/* line 123, ../sass/phoneNumbers.scss */
-.placeN1_Numbers {
-  padding-right: 18px;
-  padding-bottom: 30px;
-}
-
-/* line 128, ../sass/phoneNumbers.scss */
-.placeN2_Numbers {
-  padding-left: 18px;
-  padding-bottom: 30px;
-}
-
-/* line 150, ../sass/phoneNumbers.scss */
-.btnIcon {
-  text-align: center;
-  margin-top: 20px;
-  margin-bottom: 25px;
-}
-
-/* line 155, ../sass/phoneNumbers.scss */
-.profileIconContact {
-  background-color: #d4d6d8;
-  text-align: center;
-  padding-top: 19px;
-  padding-bottom: 19px;
-}
-
-/* line 167, ../sass/phoneNumbers.scss */
-.txtStyleN1 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-}
-
-/* line 176, ../sass/phoneNumbers.scss */
-.txtStyleN2 {
-  margin-left: 17px;
-  margin-top: 17px;
-  font-family: "Proxima Nova";
-  font-size: 22px;
-  font-weight: 400;
-  color: #2b79ec;
-}
-
-/* line 14, ../sass/caption.scss */
-.rowCaption {
-  background-color: #2b79ec;
-  width: 1002px;
-  font-family: "Proxima Nova";
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  padding-top: 16px;
-  padding-bottom: 16px;
-  margin: 0 auto;
-}
-/* line 24, ../sass/caption.scss */
-.rowCaption .criminalCaption {
-  color: #9ec1f4;
-}
-
 /* line 15, ../sass/relatives.scss */
 .txtStyleN7 {
   margin-left: 17px;
@@ -1055,53 +871,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 18px;
 }
 
-/* line 29, ../sass/global.scss */
+@media (max-width: 767px) {
+  /* line 22, ../sass/global.scss */
+  .rowSection {
+    width: 640px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 768px) {
+  /* line 35, ../sass/global.scss */
+  .rowSection {
+    width: 1002px;
+    margin: 0 auto;
+  }
+}
+/* line 46, ../sass/global.scss */
 .extrabold {
   font-family: "Proxima Nova";
   font-weight: 900;
 }
 
-/* line 33, ../sass/global.scss */
+/* line 50, ../sass/global.scss */
 .normal {
   font-family: "Proxima Nova";
   font-weight: normal;
 }
 
-/* line 37, ../sass/global.scss */
+/* line 54, ../sass/global.scss */
 .bold {
   font-family: "Proxima Nova";
   font-weight: bold;
 }
 
-/* line 41, ../sass/global.scss */
+/* line 58, ../sass/global.scss */
 .semibold {
   font-family: "Proxima Nova";
   font-weight: 600;
 }
 
-/* line 45, ../sass/global.scss */
+/* line 62, ../sass/global.scss */
 .light {
   font-family: "Proxima Nova";
   font-weight: 300;
 }
 
-/* line 49, ../sass/global.scss */
+/* line 66, ../sass/global.scss */
 .container {
   max-width: 1032px !important;
 }
 
-/* line 53, ../sass/global.scss */
-.rowSection {
-  padding-left: 27px;
-  padding-right: 28px;
-}
-
-/* line 57, ../sass/global.scss */
-.infoIcon2 {
-  text-align: right;
-}
-
-/* line 61, ../sass/global.scss */
+/* line 72, ../sass/global.scss */
 .rowBlock {
   background-color: #f5f5f5;
   width: 1002px;
@@ -1110,12 +929,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-left: 1px solid #dee1e3;
   border-right: 1px solid #dee1e3;
 }
-/* line 68, ../sass/global.scss */
+/* line 79, ../sass/global.scss */
 .rowBlock.neighBorder {
   border-bottom: 1px solid #dee1e3;
 }
 
-/* line 71, ../sass/global.scss */
+/* line 82, ../sass/global.scss */
 .rowBlockxshell {
   background-color: #fff;
   width: 1002px;
@@ -1124,11 +943,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 59px;
 }
 
-/* line 79, ../sass/global.scss */
+/* line 90, ../sass/global.scss */
 .rowReport {
   background-color: #fff;
   width: 1002px;
   margin: 0 auto;
   padding-top: 0px;
   padding-bottom: 0px;
+}
+
+/* line 98, ../sass/global.scss */
+.btnStyle {
+  border-radius: 5px;
+  background-color: #fff;
+  border: 1px solid #dee1e3;
+  -webkit-box-shadow: 2px 2px 0px #e9e9e9;
+  -moz-box-shadow: 2px 2px 0px #e9e9e9;
+  box-shadow: 2px 2px 0px #e9e9e9;
 }

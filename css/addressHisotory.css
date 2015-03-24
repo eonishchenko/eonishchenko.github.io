@@ -1,10 +1,10 @@
-/* line 14, ../sass/addressHisotory.scss */
+/* line 19, ../sass/addressHisotory.scss */
 .mapAddr {
   text-align: center;
   margin-bottom: 50px;
 }
 
-/* line 19, ../sass/addressHisotory.scss */
+/* line 24, ../sass/addressHisotory.scss */
 .txtStyleN16 {
   margin-left: 58px;
   margin-top: 34px;
@@ -14,7 +14,7 @@
   color: #2b79ec;
 }
 
-/* line 28, ../sass/addressHisotory.scss */
+/* line 33, ../sass/addressHisotory.scss */
 .txtStyleN17 {
   margin-right: 7px;
   margin-top: 37px;
@@ -26,7 +26,7 @@
   text-align: right;
 }
 
-/* line 39, ../sass/addressHisotory.scss */
+/* line 44, ../sass/addressHisotory.scss */
 .txtStyleN18 {
   margin-top: 37px;
   font-family: "Proxima Nova";
@@ -37,7 +37,7 @@
   text-align: right;
 }
 
-/* line 49, ../sass/addressHisotory.scss */
+/* line 54, ../sass/addressHisotory.scss */
 .txtStyleN19 {
   margin-top: 37px;
   font-family: "Proxima Nova";
@@ -48,17 +48,27 @@
   text-align: right;
 }
 
-/* line 59, ../sass/addressHisotory.scss */
+/* line 64, ../sass/addressHisotory.scss */
 .placeN8_Addr {
   padding-bottom: 8px;
 }
 
-/* line 60, ../sass/addressHisotory.scss */
+/* line 65, ../sass/addressHisotory.scss */
 .placeN9_Addr {
   padding-bottom: 10px;
 }
 
-/* line 61, ../sass/addressHisotory.scss */
+/* line 66, ../sass/addressHisotory.scss */
 .placeN10_Addr {
   padding-bottom: 31px;
+}
+
+/* line 67, ../sass/addressHisotory.scss */
+.placeN8 {
+  margin-bottom: 10px;
+}
+
+/* line 70, ../sass/addressHisotory.scss */
+.placeN9 {
+  margin-bottom: 10px;
 }

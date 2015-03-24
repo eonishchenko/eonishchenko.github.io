@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <title>Header Section</title>
     <link href="css/bootstrap.min.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="css/global.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/header.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <link href="css/fonts.css" media="screen, projection" rel="stylesheet" type="text/css" />
 
 </head>
 <body>
@@ -13,13 +14,13 @@
 
 <!-- END HEADER SECTION -->
 
-</body>
-</html>
-<div class="row rowHeader">
-   <div class="row rowHeaderContent">
-       <div class="inputCollect">
-       <div class="inputKindSearch">
-              <select class="txtStyleN40">
+
+<div class="row styleN1_rowHeader">
+    <form action="#" method="get" name="search">
+<div class="row styleN2_rowHeaderContent">
+       <div class="styleN3_inputCollect">
+       <div class="styleN4_inputKindSearch">
+              <select class="styleN5_selectTxt" name="kind">
 
                     <option>People</option>
                     <option>Animals</option>
@@ -29,20 +30,24 @@
        </div>
 </div>
 
-       <div class="inputCollect">
-       <div class="inputSearch">
-           <label for="inputFind" class="txtStyleN41">Find:</label>
-           <input type="text" id="inputFind" class="txtStyleN42" placeholder="Jack Keroac"/></div>
+       <div class="styleN3_inputCollect">
+       <div class="styleN6_inputSearch">
+           <label for="inputFind" class="styleN7_labelFindNear">Find:</label>
+           <input type="text" id="inputFind" class="styleN8_inputFindNear" placeholder="Jack Keroac" name="find"/></div>
 
-       <div class="inputSearch">
-           <label for="inputNear" class="txtStyleN41">Near:</label>
-           <input type="text" id="inputNear" class="txtStyleN42" placeholder="Carmel, CA"/></div>
+       <div class="styleN6_inputSearch">
+           <label for="inputNear" class="styleN7_labelFindNear">Near:</label>
+           <input type="text" id="inputNear" class="styleN8_inputFindNear" placeholder="Carmel, CA" name="near"/></div>
        </div>
-       <div class="btnSearch">
-       <input type="image" src="img/searchIcon.png"/>
+       <div class="styleN9_btnSearch">
+       <input type="submit" value=""/>
         </div>
    </div>
+    </form>
 </div>
+
+</body>
+</html>
         <!--BACK
 
         <div class="row headerBG">
