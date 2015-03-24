@@ -233,120 +233,191 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 8px;
 }
 
-/* line 14, ../sass/contactSection.scss */
-.txtStyleN20 {
-  margin-left: 14px;
-  margin-bottom: 20px;
-  font-family: "Proxima Nova";
-  font-size: 30px;
-  font-weight: 700;
-  color: #646c6c;
-}
+@media (max-width: 767px) {
+  /* line 9, ../sass/contactSection.scss */
+  .styleN13_Profile {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+  }
 
-/* line 23, ../sass/contactSection.scss */
-.txtStyleN21 {
-  margin-left: 14px;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  font-weight: 400;
-  color: #646c6c;
-  line-height: 18px;
-}
+  /* line 14, ../sass/contactSection.scss */
+  .styleN14_ProfIcon {
+    background-color: #d4d6d8;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 90px;
+  }
 
-/* line 32, ../sass/contactSection.scss */
-.txtStyleN22 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-}
+  /* line 22, ../sass/contactSection.scss */
+  .styleN15_ProfName {
+    margin-left: 24px;
+    margin-bottom: 6px;
+    font-family: "Proxima Nova";
+    font-size: 40px;
+    font-weight: 700;
+    color: #646c6c;
+  }
 
-/* line 41, ../sass/contactSection.scss */
-.txtStyleN23 {
-  margin-left: 17px;
-  margin-top: 17px;
-  font-family: "Proxima Nova";
-  font-size: 22px;
-  font-weight: 400;
-  color: #2b79ec;
-}
+  /* line 31, ../sass/contactSection.scss */
+  .styleN16_ProfBorn {
+    margin-left: 24px;
+    font-family: "Proxima Nova";
+    font-size: 26px;
+    font-weight: 400;
+    color: #646c6c;
+    line-height: 26px;
+  }
 
-/* line 50, ../sass/contactSection.scss */
-.txtStyleN24 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-}
+  /* line 40, ../sass/contactSection.scss */
+  .styleN20_txtHome {
+    margin-left: 17px;
+    margin-top: 21px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+  }
 
-/* line 59, ../sass/contactSection.scss */
-.txtStyleN25 {
-  margin-left: 17px;
-  margin-top: 17px;
-  margin-bottom: 17px;
-  font-family: "Proxima Nova";
-  font-size: 16px;
-  line-height: 18px;
-  font-weight: 400;
-  color: #2b79ec;
+  /* line 50, ../sass/contactSection.scss */
+  .styleN21_txtNumber {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size: 25px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
 }
+@media (min-width: 768px) {
+  /* line 63, ../sass/contactSection.scss */
+  .styleN13_Profile {
+    padding-bottom: 27px;
+  }
 
-/* line 69, ../sass/contactSection.scss */
-.txtStyleN26 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
+  /* line 67, ../sass/contactSection.scss */
+  .styleN14_ProfIcon {
+    background-color: #d4d6d8;
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 19px;
+    width: 90px;
+  }
+
+  /* line 75, ../sass/contactSection.scss */
+  .styleN15_ProfName {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    font-family: "Proxima Nova";
+    font-size: 35px;
+    font-weight: 700;
+    color: #646c6c;
+  }
+
+  /* line 84, ../sass/contactSection.scss */
+  .styleN16_ProfBorn {
+    margin-left: 14px;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    font-weight: 400;
+    color: #646c6c;
+    line-height: 25px;
+  }
+
+  /* line 94, ../sass/contactSection.scss */
+  .styleN20_txtHome {
+    margin-left: 17px;
+    margin-top: 21px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  /* line 104, ../sass/contactSection.scss */
+  .styleN21_txtNumber {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size: 25px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
+
+  /* line 112, ../sass/contactSection.scss */
+  .styleN22_txtCurAddrCaption {
+    margin-left: 17px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  /* line 122, ../sass/contactSection.scss */
+  .styleN23_txtCurAddr {
+    margin-left: 17px;
+    margin-bottom: 12px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
+
+  /* line 131, ../sass/contactSection.scss */
+  .styleN24_txtEmailCaption {
+    margin-left: 17px;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  /* line 141, ../sass/contactSection.scss */
+  .styleN25_txtSendEmail {
+    margin-left: 17px;
+    margin-bottom: 20px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
 }
-
-/* line 78, ../sass/contactSection.scss */
-.txtStyleN27 {
-  margin-left: 17px;
-  margin-top: 17px;
-  margin-bottom: 21px;
-  font-family: "Proxima Nova";
-  font-size: 22px;
-  font-weight: 400;
-  color: #2b79ec;
-}
-
-/* line 87, ../sass/contactSection.scss */
+/* line 155, ../sass/contactSection.scss */
 .placeN11_ContactInf {
   padding-bottom: 30px;
 }
 
-/* line 89, ../sass/contactSection.scss */
+/* line 157, ../sass/contactSection.scss */
 .placeN12_ContactInf {
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
-/* line 90, ../sass/contactSection.scss */
+/* line 158, ../sass/contactSection.scss */
 .placeN13_ContactInf {
-  padding-bottom: 10px;
+  padding-bottom: 8px;
 }
 
-/* line 91, ../sass/contactSection.scss */
+/* line 159, ../sass/contactSection.scss */
 .placeN14_ContactInf {
   padding-bottom: 28px;
 }
 
-/* line 92, ../sass/contactSection.scss */
+/* line 160, ../sass/contactSection.scss */
 .placeN15_ContactInf {
   text-align: right;
 }
 
-/* line 93, ../sass/contactSection.scss */
+/* line 161, ../sass/contactSection.scss */
 .placeN12 {
   margin-right: 18px;
 }
 
-/* line 97, ../sass/contactSection.scss */
+/* line 165, ../sass/contactSection.scss */
 .placeN14 {
   margin-right: 10px;
 }
@@ -401,13 +472,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-left: 105px;
 }
 
-/* line 5, ../sass/caption.scss */
+/* line 5, ../sass/_caption.scss */
 .styleN11_infoIcon {
   text-align: right;
 }
 
 @media (max-width: 767px) {
-  /* line 13, ../sass/caption.scss */
+  /* line 13, ../sass/_caption.scss */
   .styleN10_Caption {
     background-color: #2b79ec;
     font-family: "Proxima Nova";
@@ -416,13 +487,13 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #ffffff;
     padding: 30px 32px 35px 25px;
   }
-  /* line 20, ../sass/caption.scss */
+  /* line 20, ../sass/_caption.scss */
   .styleN10_Caption .criminalCaption {
     color: #9ec1f4;
   }
 }
 @media (min-width: 768px) {
-  /* line 28, ../sass/caption.scss */
+  /* line 28, ../sass/_caption.scss */
   .styleN10_Caption {
     background-color: #2b79ec;
     font-family: "Proxima Nova";
@@ -431,7 +502,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #ffffff;
     padding: 15px 30px;
   }
-  /* line 35, ../sass/caption.scss */
+  /* line 35, ../sass/_caption.scss */
   .styleN10_Caption .criminalCaption {
     color: #9ec1f4;
   }
@@ -877,64 +948,97 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 640px;
     margin: 0 auto;
   }
+
+  /* line 27, ../sass/global.scss */
+  .styleN12_Block {
+    background-color: #f5f5f5;
+    padding: 40px 30px;
+    border-left: 1px solid #dee1e3;
+    border-right: 1px solid #dee1e3;
+  }
+
+  /* line 36, ../sass/global.scss */
+  .styleN17_Btn {
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #dee1e3;
+    -webkit-box-shadow: 2px 2px 0px #e9e9e9;
+    -moz-box-shadow: 2px 2px 0px #e9e9e9;
+    box-shadow: 2px 2px 0px #e9e9e9;
+  }
 }
 @media (min-width: 768px) {
-  /* line 35, ../sass/global.scss */
+  /* line 52, ../sass/global.scss */
   .rowSection {
     width: 1002px;
     margin: 0 auto;
   }
+
+  /* line 58, ../sass/global.scss */
+  .styleN12_Block {
+    background-color: #f5f5f5;
+    padding: 30px 30px;
+    border-left: 1px solid #dee1e3;
+    border-right: 1px solid #dee1e3;
+  }
+  /* line 64, ../sass/global.scss */
+  .styleN12_Block.neighBorder {
+    border-bottom: 1px solid #dee1e3;
+  }
+
+  /* line 68, ../sass/global.scss */
+  .styleN17_Btn {
+    border-radius: 5px;
+    background-color: #fff;
+    border: 1px solid #dee1e3;
+    -webkit-box-shadow: 2px 2px 0px #e9e9e9;
+    -moz-box-shadow: 2px 2px 0px #e9e9e9;
+    box-shadow: 2px 2px 0px #e9e9e9;
+  }
+
+  /* line 76, ../sass/global.scss */
+  .styleN18_BtnIcon {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  }
+
+  /* line 81, ../sass/global.scss */
+  .styleN19_BtnPadding {
+    padding-bottom: 8px;
+  }
 }
-/* line 46, ../sass/global.scss */
+/* line 89, ../sass/global.scss */
 .extrabold {
   font-family: "Proxima Nova";
   font-weight: 900;
 }
 
-/* line 50, ../sass/global.scss */
+/* line 93, ../sass/global.scss */
 .normal {
   font-family: "Proxima Nova";
   font-weight: normal;
 }
 
-/* line 54, ../sass/global.scss */
+/* line 97, ../sass/global.scss */
 .bold {
   font-family: "Proxima Nova";
   font-weight: bold;
 }
 
-/* line 58, ../sass/global.scss */
+/* line 101, ../sass/global.scss */
 .semibold {
   font-family: "Proxima Nova";
   font-weight: 600;
 }
 
-/* line 62, ../sass/global.scss */
+/* line 105, ../sass/global.scss */
 .light {
   font-family: "Proxima Nova";
   font-weight: 300;
 }
 
-/* line 66, ../sass/global.scss */
-.container {
-  max-width: 1032px !important;
-}
-
-/* line 72, ../sass/global.scss */
-.rowBlock {
-  background-color: #f5f5f5;
-  width: 1002px;
-  margin: 0 auto;
-  padding-top: 30px;
-  border-left: 1px solid #dee1e3;
-  border-right: 1px solid #dee1e3;
-}
-/* line 79, ../sass/global.scss */
-.rowBlock.neighBorder {
-  border-bottom: 1px solid #dee1e3;
-}
-
-/* line 82, ../sass/global.scss */
+/* line 111, ../sass/global.scss */
 .rowBlockxshell {
   background-color: #fff;
   width: 1002px;
@@ -943,21 +1047,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 59px;
 }
 
-/* line 90, ../sass/global.scss */
+/* line 119, ../sass/global.scss */
 .rowReport {
   background-color: #fff;
   width: 1002px;
   margin: 0 auto;
   padding-top: 0px;
   padding-bottom: 0px;
-}
-
-/* line 98, ../sass/global.scss */
-.btnStyle {
-  border-radius: 5px;
-  background-color: #fff;
-  border: 1px solid #dee1e3;
-  -webkit-box-shadow: 2px 2px 0px #e9e9e9;
-  -moz-box-shadow: 2px 2px 0px #e9e9e9;
-  box-shadow: 2px 2px 0px #e9e9e9;
 }

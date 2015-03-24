@@ -1,97 +1,165 @@
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
-///////////////GLOBAL SECTION/////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////13
 //@import "variable";
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
 ////////////FOR MOBILE DEVICE/////////////////////////////////
 @media (max-width: 767px) {
+  .styleN13_Profile
+  {
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+  }
+  .styleN14_ProfIcon
+  {
+    background-color: #d4d6d8;
+    text-align: center;
+    padding-top: 27px;
+    padding-bottom: 27px;
+    width: 90px;
+  }
+  .styleN15_ProfName
+  {
+    margin-left:24px;
+    margin-bottom: 6px;
+    font-family: "Proxima Nova";
+    font-size:40px;
+    font-weight: 700;
+    color:#646c6c;
+  }
+  .styleN16_ProfBorn
+  {
+    margin-left:24px;
+    font-family: "Proxima Nova";
+    font-size:26px;
+    font-weight: 400;
+    color:#646c6c;
+    line-height: 26px;
+  }
+  .styleN20_txtHome {
+    margin-left: 17px;
+    margin-top: 21px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size:14px;
+    font-weight: 400;
+    color:#969696;
+
+  }
+  .styleN21_txtNumber {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size:25px;
+    font-weight: 400;
+    color:#2b79ec;
+
+  }
 }
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
 ////////////FOR OTHER DEVICE//////////////////////////////////
-@media (min-width: 768px){}
-.txtStyleN20 {
-  margin-left:14px;
-  margin-bottom: 20px;
-  font-family: "Proxima Nova";
-  font-size:30px;
-  font-weight: 700;
-  color:#646c6c;
+@media (min-width: 768px){
+.styleN13_Profile
+{
+  padding-bottom: 27px;
+}
+.styleN14_ProfIcon
+  {
+  background-color: #d4d6d8;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  width: 90px;
+}
+  .styleN15_ProfName
+  {
+    margin-left:15px;
+    margin-bottom: 10px;
+    font-family: "Proxima Nova";
+    font-size:35px;
+    font-weight: 700;
+    color:#646c6c;
+  }
+  .styleN16_ProfBorn
+  {
+    margin-left:14px;
+    font-family: "Proxima Nova";
+    font-size:18px;
+    font-weight: 400;
+    color:#646c6c;
+    line-height: 25px;
+  }
 
-}
-.txtStyleN21 {
-  margin-left:14px;
-  font-family: "Proxima Nova";
-  font-size:14px;
-  font-weight: 400;
-  color:#646c6c;
-  line-height: 18px;
+  .styleN20_txtHome {
+    margin-left: 17px;
+    margin-top: 21px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size:14px;
+    font-weight: 400;
+    color:#969696;
 
-}
-.txtStyleN22 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size:10px;
-  font-weight: 400;
-  color:#969696;
+  }
+  .styleN21_txtNumber {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size:25px;
+    font-weight: 400;
+    color:#2b79ec;
 
-}
-.txtStyleN23 {
-  margin-left: 17px;
-  margin-top:17px;
-  font-family: "Proxima Nova";
-  font-size:22px; //16px
-  font-weight: 400;
-  color:#2b79ec;
+  }
+  .styleN22_txtCurAddrCaption{
+    margin-left: 17px;
+    margin-top: 19px;
+    margin-bottom: 10px;
+    font-family: "Proxima Nova";
+    font-size:14px;
+    font-weight: 400;
+    color:#969696;
 
-}
-.txtStyleN24 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size:10px;
-  font-weight: 400;
-  color:#969696;
+  }
+  .styleN23_txtCurAddr {
+    margin-left: 17px;
+    margin-bottom: 12px;
+    font-family: "Proxima Nova";
+    font-size:20px;
+    line-height: 25px;
+    font-weight: 400;
+    color:#2b79ec;
+  }
+  .styleN24_txtEmailCaption {
+    margin-left: 17px;
+    margin-top: 19px;
+    margin-bottom: 17px;
+    font-family: "Proxima Nova";
+    font-size:14px;
+    font-weight: 400;
+    color:#969696;
 
-}
-.txtStyleN25 {
-  margin-left: 17px;
-  margin-top:17px;
-  margin-bottom: 17px;
-  font-family: "Proxima Nova";
-  font-size:16px; //16px
-  line-height: 18px;
-  font-weight: 400;
-  color:#2b79ec;
-}
-.txtStyleN26 {
-  margin-left: 17px;
-  margin-top: 20px;
-  font-family: "Proxima Nova";
-  font-size:10px;
-  font-weight: 400;
-  color:#969696;
+  }
+  .styleN25_txtSendEmail {
+    margin-left: 17px;
 
+    margin-bottom: 20px;
+    font-family: "Proxima Nova";
+    font-size:20px;
+    font-weight: 400;
+    color:#2b79ec;
+  }
 }
-.txtStyleN27 {
-  margin-left: 17px;
-  margin-top:17px;
-  margin-bottom: 21px;
-  font-family: "Proxima Nova";
-  font-size:22px; //16px
-  font-weight: 400;
-  color:#2b79ec;
-}
+
+
+
+
 .placeN11_ContactInf{//padding-top: 30px;
   padding-bottom: 30px;}
-.placeN12_ContactInf{padding-bottom: 10px;}
-.placeN13_ContactInf{padding-bottom: 10px;}
+.placeN12_ContactInf{padding-bottom: 8px;}
+.placeN13_ContactInf{padding-bottom: 8px;}
 .placeN14_ContactInf{padding-bottom: 28px;}
 .placeN15_ContactInf{text-align: right}
 .placeN12{margin-right:18px;}
-.placeN11{}
+
 
 
 .placeN14{margin-right:10px;}
