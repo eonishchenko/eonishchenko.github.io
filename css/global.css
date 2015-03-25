@@ -186,53 +186,50 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 27px;
 }
 
-/* line 15, ../sass/reportSection.scss */
-.upgradeReportBtn {
-  background-color: #1ab86b;
-  color: #fff;
-  width: 171px;
-  height: 40px;
-  border-radius: 5px;
-  border-top-color: #4fcb92;
-  border-right-color: #008249;
-  border-bottom-color: #008249;
-  border-left-color: #4fcb92;
-}
+@media (min-width: 768px) {
+  /* line 14, ../sass/_reportSection.scss */
+  .styleN70_ReportSection {
+    background-color: #fff;
+    width: 1002px;
+    margin: 0 auto;
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
+  /* line 20, ../sass/_reportSection.scss */
+  .styleN70_ReportSection > .M3 {
+    text-align: right;
+  }
 
-/* line 27, ../sass/reportSection.scss */
-.btnR {
-  border: none;
-  background-color: #fff;
-  margin-left: 30px !important;
-  padding: 0;
-}
-/* line 28, ../sass/reportSection.scss */
-.btnR .btnSave {
-  width: 28px;
-  height: 22px;
-}
-/* line 29, ../sass/reportSection.scss */
-.btnR .btnPrint {
-  width: 23px;
-  height: 20px;
-}
-/* line 30, ../sass/reportSection.scss */
-.btnR .btnDownload {
-  width: 23px;
-  height: 20px;
-}
-/* line 31, ../sass/reportSection.scss */
-.btnR .btnEmail {
-  width: 24px;
-  height: 18px;
-}
+  /* line 22, ../sass/_reportSection.scss */
+  .styleN71_BtnUpgReport {
+    background-color: #1ab86b;
+    width: 171px;
+    height: 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 #008249;
+    border: none;
+    font-family: "Proxima Nova";
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 25px;
+  }
 
-/* line 34, ../sass/reportSection.scss */
-.reportSect {
-  margin-top: 8px;
-  margin-bottom: 8px;
-}
+  /* line 37, ../sass/_reportSection.scss */
+  .styleN73_BtnPrint {
+    margin-left: 29px;
+  }
 
+  /* line 38, ../sass/_reportSection.scss */
+  .styleN74_BtnDownload {
+    margin-left: 30px;
+  }
+
+  /* line 39, ../sass/_reportSection.scss */
+  .styleN75_BtnEmail {
+    margin-left: 29px;
+  }
+}
 @media (max-width: 767px) {
   /* line 9, ../sass/_contactSection.scss */
   .styleN13_Profile {
@@ -1264,13 +1261,4 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 .light {
   font-family: "Proxima Nova";
   font-weight: 300;
-}
-
-/* line 135, ../sass/global.scss */
-.rowReport {
-  background-color: #fff;
-  width: 1002px;
-  margin: 0 auto;
-  padding-top: 0px;
-  padding-bottom: 0px;
 }
