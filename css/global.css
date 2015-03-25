@@ -603,7 +603,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 @media (max-width: 767px) {
   /* line 9, ../sass/_relatives.scss */
   .styleN35_RetailPadding {
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
   /* line 11, ../sass/_relatives.scss */
   .styleN35_RetailPadding .styleN17_Btn > .styleN18_BtnIcon {
@@ -754,119 +754,181 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     padding-right: 33px;
   }
 }
-/* line 14, ../sass/_neighbors.scss */
-.txtStyleN7 {
-  margin-left: 17px;
-  margin-top: 37px;
-  font-family: "Proxima Nova";
-  font-size: 17px;
-  font-weight: 400;
-  color: #2b79ec;
-}
+@media (max-width: 767px) {
+  /* line 9, ../sass/_neighbors.scss */
+  .styleN45_RetailPadding {
+    margin-bottom: 20px;
+  }
+  /* line 11, ../sass/_neighbors.scss */
+  .styleN45_RetailPadding .styleN17_Btn > .styleN18_BtnIcon {
+    margin-top: 47px;
+    margin-bottom: 44px;
+    padding-left: 28px;
+  }
+  /* line 16, ../sass/_neighbors.scss */
+  .styleN45_RetailPadding img {
+    width: 51px;
+  }
 
-/* line 23, ../sass/_neighbors.scss */
-.txtStyleN8 {
-  margin-top: 40px;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  font-weight: bold;
-  color: #646c6c;
-}
+  /* line 18, ../sass/_neighbors.scss */
+  .styleN46_TxtNameNeigh {
+    margin-left: 20px;
+    margin-top: 30px;
+    font-family: "Proxima Nova";
+    color: #2b79ec;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+  }
 
-/* line 32, ../sass/_neighbors.scss */
-.txtStyleN9 {
-  margin-top: 30px;
-  font-family: "Proxima Nova";
-  font-size: 12px;
-  font-weight: 400;
-  color: #646c6c;
-  padding-right: 64px;
-}
+  /* line 28, ../sass/_neighbors.scss */
+  .styleN47_TxtAgeNeigh {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-family: "Proxima Nova";
+    color: #2b79ec;
+    font-size: 30px;
+    font-weight: 700;
+    text-align: left;
+  }
 
-/* line 42, ../sass/_neighbors.scss */
-.txtStyleN10 {
-  margin-top: 40px;
-  font-family: "Proxima Nova";
-  font-size: 12px;
-  font-weight: 400;
-  color: #2b79ec;
-  text-align: right;
-  padding-right: 33px;
-}
+  /* line 37, ../sass/_neighbors.scss */
+  .styleN48_TxtAddrNeigh {
+    margin-left: 25px;
+    font-family: "Proxima Nova";
+    color: #2b79ec;
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: left;
+  }
 
-/* line 52, ../sass/_neighbors.scss */
-.txtStyleN11 {
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-  text-align: center;
-}
+  /* line 46, ../sass/_neighbors.scss */
+  .styleN50_BtnDetail {
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 54px;
+  }
+  /* line 50, ../sass/_neighbors.scss */
+  .styleN50_BtnDetail img {
+    width: 30px;
+  }
 
-/* line 63, ../sass/_neighbors.scss */
-.txtStyleN12 {
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-  padding-right: 60px;
-  text-align: right;
+  /* line 54, ../sass/_neighbors.scss */
+  .styleN51_BtnBack {
+    text-align: center;
+    padding-top: 42px;
+    padding-bottom: 37px;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: #e5e6e5;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0 #aaadb0;
+  }
+  /* line 56, ../sass/_neighbors.scss */
+  .styleN51_BtnBack a {
+    font-family: "Proxima Nova";
+    color: #646c6c;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+  }
 }
+@media (min-width: 768px) {
+  /* line 78, ../sass/_neighbors.scss */
+  .styleN41_TxtName {
+    font-family: "Proxima Nova";
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+  }
 
-/* line 74, ../sass/_neighbors.scss */
-.txtStyleN13 {
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-  text-align: left;
+  /* line 86, ../sass/_neighbors.scss */
+  .styleN42_TxtAge {
+    font-family: "Proxima Nova";
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 50px;
+  }
+
+  /* line 95, ../sass/_neighbors.scss */
+  .styleN43_TxtAddr {
+    font-family: "Proxima Nova";
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+  /* line 103, ../sass/_neighbors.scss */
+  .styleN44_TxtDetail {
+    font-family: "Proxima Nova";
+    color: #969696;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: right;
+    margin-right: 35px;
+    margin-bottom: 21px;
+  }
+
+  /* line 113, ../sass/_neighbors.scss */
+  .styleN45_RetailPadding {
+    margin-bottom: 10px;
+  }
+  /* line 115, ../sass/_neighbors.scss */
+  .styleN45_RetailPadding .styleN17_Btn > .styleN18_BtnIcon {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+  }
+
+  /* line 121, ../sass/_neighbors.scss */
+  .styleN46_TxtNameNeigh {
+    margin-left: 17px;
+    margin-top: 37px;
+    font-family: "Proxima Nova";
+    font-size: 25px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
+
+  /* line 129, ../sass/_neighbors.scss */
+  .styleN47_TxtAgeNeigh {
+    margin-top: 40px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    color: #646c6c;
+    font-weight: bold;
+    padding-right: 47px;
+  }
+
+  /* line 137, ../sass/_neighbors.scss */
+  .styleN48_TxtAddrNeigh {
+    margin-top: 30px;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    color: #646c6c;
+    padding-left: 47px;
+  }
+
+  /* line 146, ../sass/_neighbors.scss */
+  .styleN49_TxtInfoNeigh {
+    margin-top: 40px;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    color: #2b79ec;
+    text-align: right;
+    padding-right: 33px;
+  }
 }
-
-/* line 85, ../sass/_neighbors.scss */
-.txtStyleN14 {
-  font-family: "Proxima Nova";
-  font-size: 10px;
-  font-weight: 400;
-  color: #969696;
-  padding-right: 35px;
-  text-align: right;
-}
-
-/* line 96, ../sass/_neighbors.scss */
-.txtStyleN15 {
-  font-family: "Proxima Nova";
-  font-size: 12px;
-  font-weight: 400;
-  color: #2b79ec;
-  padding-right: 35px;
-  text-align: left;
-}
-
-/* line 107, ../sass/_neighbors.scss */
-.placeN3_Relatives {
-  padding-bottom: 21px;
-}
-
-/* line 108, ../sass/_neighbors.scss */
-.placeN4_Relatives {
-  padding-bottom: 10px;
-}
-
-/* line 109, ../sass/_neighbors.scss */
-.placeN5_Relatives {
-  padding-bottom: 10px;
-}
-
-/* line 110, ../sass/_neighbors.scss */
-.placeN6_Relatives {
-  padding-bottom: 30px;
-}
-
-/* line 111, ../sass/_neighbors.scss */
-.placeN7_Relatives {
-  padding-bottom: 28px;
-}
-
 /* line 15, ../sass/_xShell.scss */
 .txtStyleN31 {
   margin-top: 61px;
@@ -1138,7 +1200,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border-right: 1px solid #dee1e3;
   }
   /* line 77, ../sass/global.scss */
-  .styleN12_Block.neighBorder {
+  .styleN12_Block.styleN53_NeighBorder {
     border-bottom: 1px solid #dee1e3;
   }
 
