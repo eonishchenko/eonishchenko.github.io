@@ -1,0 +1,115 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+//@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+
+  .styleN76_Addr{
+    margin-left:26px;
+    margin-top:19px;
+    font-family: "Proxima Nova";
+    font-size:30px;
+    font-weight: 400;
+    color:#2b79ec;
+
+  }
+  .styleN77_TxtActive{
+    margin-left: 26px;
+    margin-top:31px;
+    font-family: "Proxima Nova";
+    font-size:20px;
+    font-weight:400;
+    color:#1ab86b;
+    text-align: left;
+  }
+  .styleN78_TxtAddr{
+    margin-top:31px;
+    margin-left: 26px;
+    font-family: "Proxima Nova";
+    font-size:20px;
+    font-weight: 400;
+    color:#adadad;
+        text-align:left;
+  }
+  .styleN79_TxtViewDetail{
+    margin-top:37px;
+    font-family: "Proxima Nova";
+    font-size:13px;
+    font-weight: 400;
+    color:#2b79ec;
+    padding-right: 30px;
+    text-align: right;
+  }
+
+  .styleN81_Padding{
+    margin-bottom: 8px;
+    .styleN17_Btn>.styleN18_BtnIcon{
+      text-align: left;
+      padding-left: 30px;
+      margin-top: 43px;
+      margin-bottom: 44px;
+      img{width: 59px}
+
+    }
+
+  }
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN76_Addr{
+    margin-left:31px;
+    margin-top:34px;
+    font-family: "Proxima Nova";
+    font-size:20px;
+    font-weight: 700;
+    color:#2b79ec;
+
+  }
+  .styleN77_TxtActive{
+    margin-right:7px;
+    margin-top:37px;
+    font-family: "Proxima Nova";
+    font-size:13px;
+    font-weight: 700;
+    color:#1ab86b;
+    padding-right: 35px;
+    text-align: right;
+  }
+  .styleN78_TxtAddr{
+    margin-top:37px;
+    font-family: "Proxima Nova";
+    font-size:13px;
+    font-weight: 400;
+    color:#adadad;
+    padding-right:0px;
+    text-align:right;
+  }
+  .styleN79_TxtViewDetail{
+    margin-top:37px;
+    font-family: "Proxima Nova";
+    font-size:13px;
+    font-weight: 400;
+    color:#2b79ec;
+    padding-right: 30px;
+    text-align: right;
+  }
+  .styleN80_MapAddr{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .styleN81_Padding{
+    margin-bottom: 8px;
+    .styleN17_Btn>.styleN18_BtnIcon{
+      text-align: left;
+      padding-left: 30px;
+    }
+
+  }
+
+
+}
