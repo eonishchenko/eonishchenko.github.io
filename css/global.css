@@ -93,19 +93,113 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url('//fonts/?#iefix') format('embedded-opentype'), url(/task/fonts/ProximaNova-Extrabold.otf) format('opentype');
   font-weight: 900;
 }
-/* line 15, ../sass/header.scss */
+@media (max-width: 767px) {
+  /* line 10, ../sass/header.scss */
+  .styleN1_rowHeader {
+    background-color: #fafafa;
+    border-bottom: 1px solid #dee1e3;
+  }
+
+  /* line 15, ../sass/header.scss */
+  .styleN2_rowHeaderContent {
+    width: 640px;
+    margin: 0 auto;
+  }
+
+  /* line 23, ../sass/header.scss */
+  .styleN3_inputCollect {
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #d4d6d8;
+    padding-top: 18px;
+    padding-bottom: 15px;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+
+  /* line 33, ../sass/header.scss */
+  .styleN4_inputKindSearch {
+    display: inline-block;
+  }
+
+  /* line 37, ../sass/header.scss */
+  .styleN5_selectTxt {
+    font-family: "Proxima Nova";
+    margin-left: 20px;
+    margin-right: 10px;
+    border: none;
+    font-size: 19px;
+    color: #646c6c;
+    font-weight: 700;
+    width: 166px;
+  }
+  /* line 47, ../sass/header.scss */
+  .styleN5_selectTxt :after {
+    content: "";
+    background: url("img/dropdownIcon.png") no-repeat right;
+  }
+
+  /* line 51, ../sass/header.scss */
+  .styleN6_inputSearch {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 50px;
+  }
+
+  /* line 57, ../sass/header.scss */
+  .styleN7_labelFindNear {
+    font-family: "Proxima Nova";
+    color: #646c6c;
+    font-size: 19px;
+    font-weight: 900;
+    border: none;
+  }
+
+  /* line 65, ../sass/header.scss */
+  .styleN8_inputFindNear {
+    font-family: "Proxima Nova";
+    color: #b3b3b3;
+    font-size: 14px;
+    font-weight: 500;
+    border: none;
+    width: 283px;
+  }
+
+  /* line 75, ../sass/header.scss */
+  .styleN9_btnSearch {
+    display: inline-block;
+    background-color: #2b79ec;
+    margin-top: 25px;
+    padding-top: 12px;
+    padding-bottom: 15px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 5px;
+    border-top: 1px solid #a2c3f6;
+    border-right: 1px solid #2657c0;
+    border-bottom: 1px solid #1b4ca2;
+    border-left: 1px solid #6898ef;
+  }
+  /* line 85, ../sass/header.scss */
+  .styleN9_btnSearch input {
+    background: url("../img/searchIcon.png") no-repeat;
+    border: none;
+    width: 27px;
+  }
+}
+/* line 106, ../sass/header.scss */
 .styleN1_rowHeader {
   background-color: #fafafa;
   border-bottom: 1px solid #dee1e3;
 }
 
-/* line 20, ../sass/header.scss */
+/* line 111, ../sass/header.scss */
 .styleN2_rowHeaderContent {
   width: 1002px;
   margin: 0 auto;
 }
 
-/* line 28, ../sass/header.scss */
+/* line 119, ../sass/header.scss */
 .styleN3_inputCollect {
   display: inline;
   border-radius: 5px;
@@ -116,12 +210,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-right: 10px;
 }
 
-/* line 38, ../sass/header.scss */
+/* line 129, ../sass/header.scss */
 .styleN4_inputKindSearch {
   display: inline-block;
 }
 
-/* line 42, ../sass/header.scss */
+/* line 133, ../sass/header.scss */
 .styleN5_selectTxt {
   font-family: "Proxima Nova";
   margin-left: 20px;
@@ -132,20 +226,20 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 700;
   width: 166px;
 }
-/* line 52, ../sass/header.scss */
+/* line 143, ../sass/header.scss */
 .styleN5_selectTxt :after {
   content: "";
   background: url("img/dropdownIcon.png") no-repeat right;
 }
 
-/* line 56, ../sass/header.scss */
+/* line 147, ../sass/header.scss */
 .styleN6_inputSearch {
   display: inline-block;
   padding-left: 20px;
   margin-bottom: 50px;
 }
 
-/* line 62, ../sass/header.scss */
+/* line 153, ../sass/header.scss */
 .styleN7_labelFindNear {
   font-family: "Proxima Nova";
   color: #646c6c;
@@ -154,7 +248,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border: none;
 }
 
-/* line 70, ../sass/header.scss */
+/* line 161, ../sass/header.scss */
 .styleN8_inputFindNear {
   font-family: "Proxima Nova";
   color: #b3b3b3;
@@ -164,7 +258,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   width: 283px;
 }
 
-/* line 80, ../sass/header.scss */
+/* line 171, ../sass/header.scss */
 .styleN9_btnSearch {
   display: inline-block;
   background-color: #2b79ec;
@@ -179,7 +273,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   border-bottom: 1px solid #1b4ca2;
   border-left: 1px solid #6898ef;
 }
-/* line 90, ../sass/header.scss */
+/* line 181, ../sass/header.scss */
 .styleN9_btnSearch input {
   background: url("../img/searchIcon.png") no-repeat;
   border: none;
@@ -1136,7 +1230,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   }
 }
 @media (max-width: 767px) {
-  /* line 10, ../sass/addressHisotory.scss */
+  /* line 10, ../sass/_addressHisotory.scss */
   .styleN76_Addr {
     margin-left: 26px;
     margin-top: 19px;
@@ -1146,7 +1240,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #2b79ec;
   }
 
-  /* line 19, ../sass/addressHisotory.scss */
+  /* line 19, ../sass/_addressHisotory.scss */
   .styleN77_TxtActive {
     margin-left: 26px;
     margin-top: 31px;
@@ -1157,7 +1251,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: left;
   }
 
-  /* line 28, ../sass/addressHisotory.scss */
+  /* line 28, ../sass/_addressHisotory.scss */
   .styleN78_TxtAddr {
     margin-top: 31px;
     margin-left: 26px;
@@ -1168,7 +1262,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: left;
   }
 
-  /* line 37, ../sass/addressHisotory.scss */
+  /* line 37, ../sass/_addressHisotory.scss */
   .styleN79_TxtViewDetail {
     margin-top: 37px;
     font-family: "Proxima Nova";
@@ -1179,24 +1273,24 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: right;
   }
 
-  /* line 47, ../sass/addressHisotory.scss */
+  /* line 47, ../sass/_addressHisotory.scss */
   .styleN81_Padding {
     margin-bottom: 8px;
   }
-  /* line 49, ../sass/addressHisotory.scss */
+  /* line 49, ../sass/_addressHisotory.scss */
   .styleN81_Padding .styleN17_Btn > .styleN18_BtnIcon {
     text-align: left;
     padding-left: 30px;
     margin-top: 43px;
     margin-bottom: 44px;
   }
-  /* line 54, ../sass/addressHisotory.scss */
+  /* line 54, ../sass/_addressHisotory.scss */
   .styleN81_Padding .styleN17_Btn > .styleN18_BtnIcon img {
     width: 59px;
   }
 }
 @media (min-width: 768px) {
-  /* line 64, ../sass/addressHisotory.scss */
+  /* line 64, ../sass/_addressHisotory.scss */
   .styleN76_Addr {
     margin-left: 31px;
     margin-top: 34px;
@@ -1206,7 +1300,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     color: #2b79ec;
   }
 
-  /* line 73, ../sass/addressHisotory.scss */
+  /* line 73, ../sass/_addressHisotory.scss */
   .styleN77_TxtActive {
     margin-right: 7px;
     margin-top: 37px;
@@ -1218,7 +1312,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: right;
   }
 
-  /* line 83, ../sass/addressHisotory.scss */
+  /* line 83, ../sass/_addressHisotory.scss */
   .styleN78_TxtAddr {
     margin-top: 37px;
     font-family: "Proxima Nova";
@@ -1229,7 +1323,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: right;
   }
 
-  /* line 92, ../sass/addressHisotory.scss */
+  /* line 92, ../sass/_addressHisotory.scss */
   .styleN79_TxtViewDetail {
     margin-top: 37px;
     font-family: "Proxima Nova";
@@ -1240,17 +1334,17 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: right;
   }
 
-  /* line 101, ../sass/addressHisotory.scss */
+  /* line 101, ../sass/_addressHisotory.scss */
   .styleN80_MapAddr {
     text-align: center;
     margin-bottom: 50px;
   }
 
-  /* line 105, ../sass/addressHisotory.scss */
+  /* line 105, ../sass/_addressHisotory.scss */
   .styleN81_Padding {
     margin-bottom: 8px;
   }
-  /* line 107, ../sass/addressHisotory.scss */
+  /* line 107, ../sass/_addressHisotory.scss */
   .styleN81_Padding .styleN17_Btn > .styleN18_BtnIcon {
     text-align: left;
     padding-left: 30px;
