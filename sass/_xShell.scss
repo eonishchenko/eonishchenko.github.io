@@ -10,112 +10,90 @@
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
 ////////////FOR OTHER DEVICE//////////////////////////////////
-@media (min-width: 768px){
-  .styleN61
-      
+@media (min-width: 768px) {
+  .styleN61_Blockxshell {
+    background-color: #fff;
+    width: 1002px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 59px;
+  }
+  .styleN62_LeftShell {
+    background-color: #2b79ec;
+    border-radius: 5px;
+    margin-right: 15px;
+    padding-bottom: 59px;
+    width: 485px;
 
-}
+  }
+  .styleN63_RightShell {
+    background-color: #1548a0;
+    border-radius: 5px;
+    margin-left: 15px;
+    width: 485px;
+  }
+  .styleN64_lShellTitle {
+    margin-top: 61px;
+    margin-bottom: 24px;
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
+  }
+  .styleN65_lShellDesc {
+    margin-bottom: 27px;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+  }
+  .styleN66_ShellBtn {
+    border-radius: 5px;
+    background-color: #ffffff;
+    width: 242px;
+    margin-left: 119px;
+    padding-top: 23px;
+    padding-bottom: 16px;
+    font-family: "Proxima Nova";
+    font-size: 19px;
+    font-weight: 700;
+    color: #2b79ec;
+    text-align: center;
 
+  }
+  .styleN67_rShellTitle {
+    margin-top: 61px;
+    margin-bottom: 24px;
+    font-family: "Proxima Nova";
+    font-size: 30px;
+    line-height: 35px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center;
 
-
-
-
-
-.txtStyleN31 {
-  //  margin-left: 50px;
-  margin-top:61px;
-  margin-bottom:17px;
-  font-family: "Proxima Nova";
-  font-size:26px; //16px
-  font-weight: 700;
-  color:#fff;
-  text-align: center;
-
-}
-.txtStyleN32 {
-  //  margin-left: 89px;
-  margin-bottom:17px;
-  font-family: "Proxima Nova";
-  font-size:18px; //16px
-  font-weight: 300;
-  color:#fff;
-  text-align: center;
-
-}
-.txtStyleN33 {
-  //  margin-left: 50px;
-  margin-top:61px;
-  margin-bottom:17px;
-  font-family: "Proxima Nova";
-  font-size:26px; //16px
-  font-weight: 700;
-  color:#fff;
-  text-align: center;
-
-}
-.txtStyleN34 {
-  //  margin-left: 89px;
-  margin-bottom:17px;
-  font-family: "Proxima Nova";
-  font-size:18px; //16px
-  font-weight: 300;
-  color:#fff;
-  text-align: center;
-
-}
-.txtStyleN35 {
-  margin-left: 119px;
-  padding-top:23px;
-  padding-bottom: 16px;
-  margin-bottom: 59px;
-  font-family: "Proxima Nova";
-  font-size:16px; //16px
-  font-weight: 700;
-  color:#2b79ec;
-  text-align: center;
-}
-.txtStyleN36 {
-  margin-left: 119px;
-  padding-top:23px;
-  padding-bottom: 16px;
-  margin-bottom: 59px;
-  font-family: "Proxima Nova";
-  font-size:16px; //16px
-  font-weight: 700;
-  color:#2b79ec;
-  text-align: center;
-}
-.placeN16_Xshell{background-color: #2b79ec;
-  border-radius: 5px;
-  margin-right: 15px;
-  width: 485px;
-  height: 345px;
-}
-.placeN17_Xshell{background-color: #1548a0;
-  border-radius: 5px;
-  margin-left: 15px;
-  width: 485px;
-  height: 345px; //
-}
-.placeN18_Xshell{background-color: #1548a0;
-  border-radius: 5px;
-  margin-left: 10px;
-  width: 485px;
-
-}
-.btnXshellUpgrade{
-  border-radius: 5px;
-  background-color:#ffffff ;
-  width: 242px;
-
-}
-.btnUp{ background-color: #e7e7e7;
-  position:relative;
-  right:-545px;
-  top: -10px;
-  width: 58px;
-  text-align: center;
-  border-radius: 50%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  }
+  .styleN68_rShellDesc {
+    margin-bottom: 27px;
+    font-family: "Proxima Nova";
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #fff;
+    text-align: center;
+  }
+  .styleN69_BtnUp {
+    background-color: #e7e7e7;
+    position: relative;
+    right: -545px;
+    top: -10px;
+    width: 58px;
+    text-align: center;
+    border-radius: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
