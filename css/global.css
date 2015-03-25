@@ -1045,101 +1045,112 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   padding-bottom: 20px;
 }
 
-/* line 15, ../sass/footer.scss */
-.rowFooterSection {
-  width: 100%;
-  background-color: #f6f6f6;
-}
+@media (min-width: 768px) {
+  /* line 14, ../sass/_footer.scss */
+  .styleN54_FooterSection {
+    width: 100%;
+    background-color: #f6f6f6;
+    padding-top: 65px;
+  }
 
-/* line 19, ../sass/footer.scss */
-.rowFooterContent {
-  width: 1099px;
-  background-color: #f6f6f6;
-  padding-top: 59px;
-  margin: 0 auto;
-  border-bottom: 1px solid #e9e9e9;
-}
+  /* line 19, ../sass/_footer.scss */
+  .styleN55_FooterContent {
+    width: 1099px;
+    background-color: #f6f6f6;
+    margin: 0 auto;
+    border-bottom: 1px solid #e9e9e9;
+  }
+  /* line 24, ../sass/_footer.scss */
+  .styleN55_FooterContent:nth-child(1) {
+    padding-bottom: 38px;
+    margin-bottom: 40px;
+  }
+  /* line 29, ../sass/_footer.scss */
+  .styleN55_FooterContent:nth-child(2) {
+    padding-bottom: 37px;
+    margin-bottom: 39px;
+  }
+  /* line 34, ../sass/_footer.scss */
+  .styleN55_FooterContent:nth-child(3) {
+    padding-bottom: 42px;
+    margin-bottom: 31px;
+  }
 
-/* line 27, ../sass/footer.scss */
-.liStyleN1 {
-  text-align: center;
-  padding-bottom: 38px;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  font-weight: 700;
-}
-/* line 33, ../sass/footer.scss */
-.liStyleN1 li {
-  display: inline;
-  padding-left: 8px;
-  padding-right: 8px;
-}
-/* line 36, ../sass/footer.scss */
-.liStyleN1 li:nth-child(1) {
-  font-size: 14px;
-  font-weight: 700;
-}
-/* line 40, ../sass/footer.scss */
-.liStyleN1 a {
-  font-size: 14px;
-  font-weight: 400;
-}
+  /* line 43, ../sass/_footer.scss */
+  .styleN56_FooterABC {
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 700;
+  }
+  /* line 48, ../sass/_footer.scss */
+  .styleN56_FooterABC li {
+    display: inline;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  /* line 51, ../sass/_footer.scss */
+  .styleN56_FooterABC li:nth-child(1) {
+    font-size: 15px;
+    font-weight: 700;
+  }
+  /* line 54, ../sass/_footer.scss */
+  .styleN56_FooterABC a {
+    font-size: 17px;
+    font-weight: 400;
+  }
 
-/* line 45, ../sass/footer.scss */
-.liStyleN2 {
-  text-align: center;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  font-weight: 400;
-  list-style-type: disc;
-  float: left;
-  margin-left: 25px;
-  margin-bottom: 37px;
-}
-/* line 57, ../sass/footer.scss */
-.liStyleN2 li {
-  display: inline;
-}
-/* line 59, ../sass/footer.scss */
-.liStyleN2 li.disk:before {
-  content: "\2022";
-  color: #a3a3a3;
-  margin-left: 8px;
-  margin-right: 8px;
-}
+  /* line 58, ../sass/_footer.scss */
+  .styleN57_FooterLinks {
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type: disc;
+    float: left;
+  }
+  /* line 65, ../sass/_footer.scss */
+  .styleN57_FooterLinks li {
+    display: inline;
+  }
+  /* line 67, ../sass/_footer.scss */
+  .styleN57_FooterLinks li.StyleN58_Disk:before {
+    content: "\2022";
+    color: #a3a3a3;
+    margin-left: 8px;
+    margin-right: 8px;
+  }
 
-/* line 63, ../sass/footer.scss */
-.txtStyleN37 {
-  text-align: center;
-  font-family: "Proxima Nova";
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 26px;
-  color: #808080;
-  margin-bottom: 41px;
-}
+  /* line 71, ../sass/_footer.scss */
+  .styleN59_Description {
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #808080;
+  }
 
-/* line 72, ../sass/footer.scss */
-.txtStyleN38 {
-  text-align: center;
-}
-/* line 74, ../sass/footer.scss */
-.txtStyleN38 img {
-  margin-right: 34px;
-  margin-top: 31px;
-  margin-bottom: 41px;
-}
+  /* line 80, ../sass/_footer.scss */
+  .styleN60_SecurityIcon {
+    text-align: center;
+  }
+  /* line 82, ../sass/_footer.scss */
+  .styleN60_SecurityIcon img {
+    margin-right: 34px;
+    margin-bottom: 41px;
+  }
 
-/* line 81, ../sass/footer.scss */
-.txtStyleN39 {
-  font-family: "Proxima Nova";
-  text-align: center;
-  color: #a7a7a7;
-  font-size: 12px;
-  font-weight: 700;
-  margin-bottom: 18px;
+  /* line 87, ../sass/_footer.scss */
+  .styleN61_Copyright {
+    font-family: "Proxima Nova";
+    text-align: center;
+    color: #a7a7a7;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
 }
-
 @media (max-width: 767px) {
   /* line 22, ../sass/global.scss */
   .rowSection {

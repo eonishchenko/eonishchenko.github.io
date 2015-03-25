@@ -1,0 +1,100 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+//@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+  .styleN54_FooterSection{
+    width: 100%;
+    background-color:#f6f6f6;
+    padding-top: 65px;
+  }
+  .styleN55_FooterContent{
+    width: 1099px;
+    background-color:#f6f6f6;//#f6f6f6 ;
+    margin:0 auto;
+    border-bottom:1px solid #e9e9e9;
+    &:nth-child(1) // Line for ABC
+    {
+      padding-bottom: 38px;
+      margin-bottom: 40px;
+    }
+    &:nth-child(2) //Line for Links
+    {
+      padding-bottom: 37px;
+      margin-bottom: 39px;
+    }
+    &:nth-child(3)  //Line for Detail
+    {
+      padding-bottom: 42px;
+      margin-bottom: 31px;
+    }
+
+
+
+  }
+  .styleN56_FooterABC{  text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 700;
+
+    li{display: inline;
+      padding-left: 8px;
+      padding-right: 8px;
+      &:nth-child(1){font-size: 15px;
+        font-weight: 700}
+    }
+    a{font-size: 17px;
+      font-weight: 400;
+
+    }}
+  .styleN57_FooterLinks{
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 14px;
+    font-weight: 400;
+    list-style-type:disc;
+    float: left;
+      li{
+      display: inline;
+      &.StyleN58_Disk:before{ content:"\2022";color:#a3a3a3;margin-left: 8px;margin-right: 8px;}
+
+    }
+  }
+  .styleN59_Description{
+    text-align: center;
+    font-family: "Proxima Nova";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 26px;
+    color:#808080;
+
+  }
+  .styleN60_SecurityIcon{
+    text-align: center;
+    img{margin-right: 34px;
+        margin-bottom: 41px;
+
+    }
+  }
+  .styleN61_Copyright{
+    font-family: "Proxima Nova";
+    text-align: center;
+    color:#a7a7a7;
+    font-size: 17px;
+    font-weight: 700;
+    margin-bottom: 18px;
+  }
+
+
+
+}
+
+
