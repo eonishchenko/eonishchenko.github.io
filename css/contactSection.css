@@ -2,10 +2,9 @@
   /* line 9, ../sass/contactSection.scss */
   .styleN13_Profile {
     padding-bottom: 35px;
-    margin-bottom: 35px;
   }
 
-  /* line 14, ../sass/contactSection.scss */
+  /* line 12, ../sass/contactSection.scss */
   .styleN14_ProfIcon {
     background-color: #d4d6d8;
     text-align: center;
@@ -14,7 +13,7 @@
     width: 90px;
   }
 
-  /* line 22, ../sass/contactSection.scss */
+  /* line 19, ../sass/contactSection.scss */
   .styleN15_ProfName {
     margin-left: 24px;
     margin-bottom: 6px;
@@ -24,7 +23,7 @@
     color: #646c6c;
   }
 
-  /* line 31, ../sass/contactSection.scss */
+  /* line 27, ../sass/contactSection.scss */
   .styleN16_ProfBorn {
     margin-left: 24px;
     font-family: "Proxima Nova";
@@ -34,18 +33,46 @@
     line-height: 26px;
   }
 
-  /* line 40, ../sass/contactSection.scss */
+  /* line 36, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(1) > .styleN17_Btn > .styleN18_BtnIcon {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  /* line 39, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(1) > .styleN17_Btn > .styleN18_BtnIcon img {
+    width: 55px;
+  }
+  /* line 41, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(2) > .styleN17_Btn > .styleN18_BtnIcon {
+    margin-top: 50px;
+    margin-bottom: 23px;
+  }
+  /* line 44, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(2) > .styleN17_Btn > .styleN18_BtnIcon img {
+    width: 37px;
+  }
+  /* line 46, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(3) > .styleN17_Btn > .styleN18_BtnIcon {
+    margin-top: 45px;
+    margin-bottom: 35px;
+  }
+  /* line 49, ../sass/contactSection.scss */
+  .styleN19_BtnPadding:nth-child(3) > .styleN17_Btn > .styleN18_BtnIcon img {
+    width: 55px;
+  }
+
+  /* line 52, ../sass/contactSection.scss */
   .styleN20_txtHome {
     margin-left: 17px;
-    margin-top: 21px;
-    margin-bottom: 17px;
+    margin-top: 32px;
+    margin-bottom: 22px;
     font-family: "Proxima Nova";
     font-size: 14px;
     font-weight: 400;
     color: #969696;
   }
 
-  /* line 50, ../sass/contactSection.scss */
+  /* line 62, ../sass/contactSection.scss */
   .styleN21_txtNumber {
     margin-left: 17px;
     font-family: "Proxima Nova";
@@ -53,14 +80,55 @@
     font-weight: 400;
     color: #2b79ec;
   }
+
+  /* line 69, ../sass/contactSection.scss */
+  .styleN22_txtCurAddrCaption {
+    margin-left: 17px;
+    margin-top: 32px;
+    margin-bottom: 12px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  /* line 79, ../sass/contactSection.scss */
+  .styleN23_txtCurAddr {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size: 26px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
+
+  /* line 87, ../sass/contactSection.scss */
+  .styleN24_txtEmailCaption {
+    margin-left: 17px;
+    margin-top: 32px;
+    margin-bottom: 23px;
+    font-family: "Proxima Nova";
+    font-size: 20px;
+    font-weight: 400;
+    color: #969696;
+  }
+
+  /* line 97, ../sass/contactSection.scss */
+  .styleN25_txtSendEmail {
+    margin-left: 17px;
+    font-family: "Proxima Nova";
+    font-size: 26px;
+    font-weight: 400;
+    color: #2b79ec;
+  }
 }
 @media (min-width: 768px) {
-  /* line 63, ../sass/contactSection.scss */
+  /* line 109, ../sass/contactSection.scss */
   .styleN13_Profile {
     padding-bottom: 27px;
   }
 
-  /* line 67, ../sass/contactSection.scss */
+  /* line 112, ../sass/contactSection.scss */
   .styleN14_ProfIcon {
     background-color: #d4d6d8;
     text-align: center;
@@ -69,7 +137,7 @@
     width: 90px;
   }
 
-  /* line 75, ../sass/contactSection.scss */
+  /* line 119, ../sass/contactSection.scss */
   .styleN15_ProfName {
     margin-left: 15px;
     margin-bottom: 10px;
@@ -79,7 +147,7 @@
     color: #646c6c;
   }
 
-  /* line 84, ../sass/contactSection.scss */
+  /* line 127, ../sass/contactSection.scss */
   .styleN16_ProfBorn {
     margin-left: 14px;
     font-family: "Proxima Nova";
@@ -89,7 +157,7 @@
     line-height: 25px;
   }
 
-  /* line 94, ../sass/contactSection.scss */
+  /* line 135, ../sass/contactSection.scss */
   .styleN20_txtHome {
     margin-left: 17px;
     margin-top: 21px;
@@ -100,7 +168,7 @@
     color: #969696;
   }
 
-  /* line 104, ../sass/contactSection.scss */
+  /* line 145, ../sass/contactSection.scss */
   .styleN21_txtNumber {
     margin-left: 17px;
     font-family: "Proxima Nova";
@@ -109,7 +177,7 @@
     color: #2b79ec;
   }
 
-  /* line 112, ../sass/contactSection.scss */
+  /* line 153, ../sass/contactSection.scss */
   .styleN22_txtCurAddrCaption {
     margin-left: 17px;
     margin-top: 19px;
@@ -120,7 +188,7 @@
     color: #969696;
   }
 
-  /* line 122, ../sass/contactSection.scss */
+  /* line 163, ../sass/contactSection.scss */
   .styleN23_txtCurAddr {
     margin-left: 17px;
     margin-bottom: 12px;
@@ -131,7 +199,7 @@
     color: #2b79ec;
   }
 
-  /* line 131, ../sass/contactSection.scss */
+  /* line 172, ../sass/contactSection.scss */
   .styleN24_txtEmailCaption {
     margin-left: 17px;
     margin-top: 19px;
@@ -142,7 +210,7 @@
     color: #969696;
   }
 
-  /* line 141, ../sass/contactSection.scss */
+  /* line 182, ../sass/contactSection.scss */
   .styleN25_txtSendEmail {
     margin-left: 17px;
     margin-bottom: 20px;
@@ -151,38 +219,14 @@
     font-weight: 400;
     color: #2b79ec;
   }
-}
-/* line 155, ../sass/contactSection.scss */
-.placeN11_ContactInf {
-  padding-bottom: 30px;
-}
 
-/* line 157, ../sass/contactSection.scss */
-.placeN12_ContactInf {
-  padding-bottom: 8px;
-}
+  /* line 191, ../sass/contactSection.scss */
+  .styleN26_ProfMap {
+    text-align: center;
+  }
 
-/* line 158, ../sass/contactSection.scss */
-.placeN13_ContactInf {
-  padding-bottom: 8px;
-}
-
-/* line 159, ../sass/contactSection.scss */
-.placeN14_ContactInf {
-  padding-bottom: 28px;
-}
-
-/* line 160, ../sass/contactSection.scss */
-.placeN15_ContactInf {
-  text-align: right;
-}
-
-/* line 161, ../sass/contactSection.scss */
-.placeN12 {
-  margin-right: 18px;
-}
-
-/* line 165, ../sass/contactSection.scss */
-.placeN14 {
-  margin-right: 10px;
+  /* line 194, ../sass/contactSection.scss */
+  .styleN19_BtnPadding {
+    padding-right: 14px;
+  }
 }
