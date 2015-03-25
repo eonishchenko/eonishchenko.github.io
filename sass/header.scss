@@ -7,17 +7,17 @@
 ////////////FOR MOBILE DEVICE/////////////////////////////////
 @media (max-width: 767px) {
 
+
   .styleN1_rowHeader
   {
     background-color: #fafafa;
     border-bottom:1px solid #dee1e3;
+    padding-top: 20px;
   }
   .styleN2_rowHeaderContent
   {
     width: 640px;
-    margin:0 auto;//margin-top: 20px;
-    // padding-top: 20px;
-
+    margin:0 auto;
 
   }
   .styleN3_inputCollect
@@ -26,7 +26,69 @@
     border-radius: 5px;
     border: 1px solid #d4d6d8;
     padding-top: 18px;
-    padding-bottom: 15px;
+    padding-bottom: 19px;
+    background-color: #ffffff;
+    margin-right: 10px;
+  }
+
+
+
+  .styleN6_inputSearch
+  {
+    display: inline-block;
+    padding-left: 20px;
+    margin-bottom: 28px;
+  }
+
+
+  .styleN9_btnSearch{
+    display: inline-block;
+    background-color: #2b79ec;
+    padding-top: 8px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border-radius: 5px;
+    width: 67px;
+    height: 55px;
+    input{
+      border: none;
+    }
+    img{
+      position: relative;
+      top: 8px;
+    }
+    box-shadow: 1px 1px 0  #1b4ca2;
+    -webkit-box-shadow: 1px 1px 0 #1b4ca2;
+    -moz-box-shadow: 1px 1px 0 #1b4ca2;
+  }
+
+
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+
+  .styleN1_rowHeader
+  {
+    background-color: #fafafa;
+    border-bottom:1px solid #dee1e3;
+    padding-top: 20px;
+  }
+  .styleN2_rowHeaderContent
+  {
+    width: 1002px;
+    margin:0 auto;
+
+  }
+  .styleN3_inputCollect
+  {
+    display: inline;
+    border-radius: 5px;
+    border: 1px solid #d4d6d8;
+    padding-top: 18px;
+    padding-bottom: 19px;
     background-color: #ffffff;
     margin-right: 10px;
   }
@@ -44,7 +106,7 @@
     color:#646c6c;
     font-weight: 700;
     width: 166px;
-    :after{content:"";background: url("img/dropdownIcon.png") no-repeat right}
+    :after{content:url("../img/dropdownIcon.png")}
   }
 
 
@@ -52,7 +114,7 @@
   {
     display: inline-block;
     padding-left: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 28px;
   }
   .styleN7_labelFindNear
   {
@@ -75,123 +137,25 @@
   .styleN9_btnSearch{
     display: inline-block;
     background-color: #2b79ec;
-    margin-top: 25px;
-    // margin-left: 10px;
-    padding-top: 12px;
-    padding-bottom: 15px;
+    padding-top: 8px;
     padding-left: 19px;
     padding-right: 19px;
     border-radius: 5px;
+    width: 67px;
+    height: 55px;
     input{
-      //margin-bottom: -5px;
-      background: url("../img/searchIcon.png") no-repeat;
       border: none;
-      width: 27px;
-
     }
-
-
-    border-top:1px solid #a2c3f6 ;
-    border-right: 1px solid #2657c0;
-    border-bottom: 1px solid #1b4ca2;
-    border-left: 1px solid #6898ef ;
-
-  }
-}
-//////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////
-////////////FOR OTHER DEVICE//////////////////////////////////
-@media (min-width: 768px){}
-
-.styleN1_rowHeader
-{
-  background-color: #fafafa;
-  border-bottom:1px solid #dee1e3;
-}
-.styleN2_rowHeaderContent
-{
-  width: 1002px;
-  margin:0 auto;//margin-top: 20px;
- // padding-top: 20px;
-
-
-}
-.styleN3_inputCollect
-{
-  display: inline;
-  border-radius: 5px;
-  border: 1px solid #d4d6d8;
-  padding-top: 18px;
-  padding-bottom: 15px;
-  background-color: #ffffff;
-  margin-right: 10px;
-}
-.styleN4_inputKindSearch
-{
-  display: inline-block;
-}
-.styleN5_selectTxt
-{
-  font-family: "Proxima Nova";
-  margin-left: 20px;
-  margin-right: 10px;
-  border: none;
-  font-size: 19px;
-  color:#646c6c;
-  font-weight: 700;
-  width: 166px;
-  :after{content:"";background: url("img/dropdownIcon.png") no-repeat right}
-}
-
-
-.styleN6_inputSearch
-{
-  display: inline-block;
-  padding-left: 20px;
-  margin-bottom: 50px;
-}
-.styleN7_labelFindNear
-{
-  font-family: "Proxima Nova";
-  color: #646c6c;
-  font-size: 19px;
-  font-weight:900;
-  border: none;
-}
-.styleN8_inputFindNear
-{
-  font-family: "Proxima Nova";
-  color: #b3b3b3;
-  font-size: 14px;
-  font-weight:500;
-  border: none;
-  width: 283px;
-}
-
-.styleN9_btnSearch{
-  display: inline-block;
-  background-color: #2b79ec;
-  margin-top: 25px;
- // margin-left: 10px;
-  padding-top: 12px;
-  padding-bottom: 15px;
-  padding-left: 19px;
-  padding-right: 19px;
-  border-radius: 5px;
-  input{
-    //margin-bottom: -5px;
-    background: url("../img/searchIcon.png") no-repeat;
-    border: none;
-    width: 27px;
-
+    img{
+      position: relative;
+      top: 8px;
+    }
+    box-shadow: 1px 1px 0  #1b4ca2;
+    -webkit-box-shadow: 1px 1px 0 #1b4ca2;
+    -moz-box-shadow: 1px 1px 0 #1b4ca2;
   }
 
 
-  border-top:1px solid #a2c3f6 ;
-  border-right: 1px solid #2657c0;
-  border-bottom: 1px solid #1b4ca2;
-  border-left: 1px solid #6898ef ;
+
 
 }
-
-
