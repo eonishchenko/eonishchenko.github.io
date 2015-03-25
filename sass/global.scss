@@ -4,7 +4,7 @@
 @import "reportSection";
 @import "contactSection";
 @import "criminalRecord";
-//@import "phoneNumbers";
+@import "phoneNumbers";
 @import "caption";
 @import "relatives";
 @import "neighbors";
@@ -19,8 +19,7 @@
 ////////////FOR MOBILE DEVICE/////////////////////////////////
 @media (max-width: 767px)
 {
-  .rowSection
-  {
+  .rowSection{
     width: 640px;
     margin: 0 auto;
   }
@@ -33,7 +32,7 @@
 
 
   }
-  .styleN17_Btn {  // old name btnStyle
+  .styleN17_Btn{  // old name btnStyle
     border-radius: 5px;
     background-color:#fff;
     border:1px solid #dee1e3;
@@ -46,9 +45,17 @@
     margin-top: 27px;
     margin-bottom: 32px;
   }
-  .styleN19_BtnPadding
-  {
+  .styleN19_BtnPadding{
     padding-bottom: 8px;
+  }
+
+  .styleN30_TxtViewAll{
+    font-family: "Proxima Nova";
+    color:#2b79ec;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 44px;
   }
 
 }
@@ -57,12 +64,10 @@
 ////////////FOR OTHER DEVICE//////////////////////////////////
 @media (min-width: 768px)
 {
-  .rowSection
-  {
+  .rowSection{
     width: 1002px;
     margin: 0 auto;
   }
-
   .styleN12_Block{  //Серый Блок
     background-color:#f5f5f5 ;
 
@@ -72,8 +77,7 @@
     &.neighBorder{border-bottom: 1px solid #dee1e3}
 
   }
-
-  .styleN17_Btn {  // old name btnStyle
+  .styleN17_Btn{  // old name btnStyle
     border-radius: 5px;
     background-color:#fff;
     border:1px solid #dee1e3;
@@ -86,10 +90,18 @@
     margin-top: 20px;
     margin-bottom: 25px;
   }
-  .styleN19_BtnPadding
-  {
+  .styleN19_BtnPadding{
     padding-bottom: 8px;
   }
+  .styleN30_TxtViewAll{
+    font-family: "Proxima Nova";
+    color:#2b79ec;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 30px;
+  }
+
 }
 
 
