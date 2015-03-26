@@ -1,0 +1,167 @@
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+///////////////GLOBAL SECTION/////////////////////////////////
+@import "variable";
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR MOBILE DEVICE/////////////////////////////////
+@media (max-width: 767px) {
+  .styleN82_SectionCriminal{
+    width: 640px;
+    margin: 0 auto;
+    background-color:#1550a4 ;
+    padding-top: 6px;
+    padding-bottom: 40px;
+
+
+
+  }
+
+  .styleN87_FirstSlide{}
+  .styleN88_SecondSlide{}
+  .styleN89_fSlideTitle{
+    text-align: center;
+    font-family: "Proxima Nova";
+    color:#ffffff;
+    font-size: 178.536px;
+    font-weight: 900;
+    margin-bottom: 45px;
+    span{
+      font-size: 69.431px;
+      font-weight: 400;
+      line-height: 30px;
+
+    }
+
+  }
+  .styleN93_sSlideTitle{
+    font-family: "Proxima Nova";
+    color:#ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 74px;
+    margin-bottom: 57px;
+  }
+
+  .styleN90_fSlideTxt{
+    font-family: "Proxima Nova";
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 42px;
+
+  }
+  .styleN94_sSlideTxt{
+    font-family: "Proxima Nova";
+    color:#ffffff;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+
+  }
+
+  .styleN91_btnBlock{
+    text-align: center;
+    input{
+    color:#ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background-color:#00b767;
+    border-radius: 5px;
+    border: none;
+    padding-top: 41px;
+    padding-bottom:35px;
+    padding-left: 121px;
+    padding-right: 121px;
+
+    }
+    margin-bottom: 45px;
+  }
+  .styleN92_SlidePosition{
+    text-align: center;
+    img{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  .styleN93_Dot{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius:50%;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .styleN94_ActiveDot{
+ background-color: #3b70e9;
+  }
+
+
+}
+//////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////
+////////////FOR OTHER DEVICE//////////////////////////////////
+@media (min-width: 768px){
+
+  .styleN82_SectionCriminal{
+    width: 1002px;
+    margin: 0 auto;
+    background-color:#1550a4 ;
+    padding-top: 59px;
+    padding-left: 72px;
+
+
+  }
+
+  .styleN83_TxtCrimTitle{
+    margin-left:0px;
+    margin-bottom:28px;
+    font-family: "Proxima Nova";
+    font-size:31px;
+    font-weight: 700;
+    line-height: 35px;
+    color:#fff;}
+
+
+  .styleN84_TxtCrimContent{
+    margin-left:0px;
+    margin-bottom: 38px;
+    font-family: "Proxima Nova";
+    font-size:16px;
+    font-weight: 400;
+    color:#fff;
+    line-height: 25px;}
+
+  .styleN85_BtnGroup{
+    & input{
+      margin-right:11px ;
+    }
+    & img{
+     vertical-align:middle;
+    }
+
+  }
+
+  .styleN86_CrimImg{
+    background-color:#2b79ec ;
+    width: 242px;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    border-radius: 50%;
+    margin-left: 105px;
+    margin-bottom: 79px;
+
+  }
+
+}

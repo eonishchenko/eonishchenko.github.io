@@ -525,56 +525,166 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     text-align: right;
   }
 }
-/* line 14, ../sass/criminalRecord.scss */
-.rowSectionCriminal {
-  width: 1002px;
-  margin: 0 auto;
-  background-color: #1550a4;
-  padding-top: 59px;
-  padding-left: 72px;
-}
+@media (max-width: 767px) {
+  /* line 9, ../sass/_criminalRecord.scss */
+  .styleN82_SectionCriminal {
+    width: 640px;
+    margin: 0 auto;
+    background-color: #1550a4;
+    padding-top: 6px;
+    padding-bottom: 40px;
+  }
 
-/* line 22, ../sass/criminalRecord.scss */
-.txtStyleN28 {
-  margin-left: 0px;
-  margin-bottom: 38px;
-  font-family: "Proxima Nova";
-  font-size: 31px;
-  font-weight: 700;
-  color: #fff;
-}
+  /* line 22, ../sass/_criminalRecord.scss */
+  .styleN89_fSlideTitle {
+    text-align: center;
+    font-family: "Proxima Nova";
+    color: #ffffff;
+    font-size: 178.536px;
+    font-weight: 900;
+    margin-bottom: 45px;
+  }
+  /* line 29, ../sass/_criminalRecord.scss */
+  .styleN89_fSlideTitle span {
+    font-size: 69.431px;
+    font-weight: 400;
+    line-height: 30px;
+  }
 
-/* line 31, ../sass/criminalRecord.scss */
-.txtStyleN29 {
-  margin-left: 0px;
-  margin-bottom: 38px;
-  font-family: "Proxima Nova";
-  font-size: 12px;
-  font-weight: 400;
-  color: #fff;
-  line-height: 18px;
-}
+  /* line 37, ../sass/_criminalRecord.scss */
+  .styleN93_sSlideTitle {
+    font-family: "Proxima Nova";
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+    padding-top: 74px;
+    margin-bottom: 57px;
+  }
 
-/* line 41, ../sass/criminalRecord.scss */
-.btnStyleN30 {
-  margin-bottom: 59px;
-}
-/* line 43, ../sass/criminalRecord.scss */
-.btnStyleN30 .upgradeReportBtn {
-  margin-right: 11px;
-}
+  /* line 48, ../sass/_criminalRecord.scss */
+  .styleN90_fSlideTxt {
+    font-family: "Proxima Nova";
+    color: #ffffff;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 42px;
+  }
 
-/* line 45, ../sass/criminalRecord.scss */
-.criminalCircle {
-  background-color: #2b79ec;
-  width: 242px;
-  text-align: center;
-  padding-top: 85px;
-  padding-bottom: 85px;
-  border-radius: 50%;
-  margin-left: 105px;
-}
+  /* line 58, ../sass/_criminalRecord.scss */
+  .styleN94_sSlideTxt {
+    font-family: "Proxima Nova";
+    color: #ffffff;
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: center;
+    margin-bottom: 60px;
+  }
 
+  /* line 69, ../sass/_criminalRecord.scss */
+  .styleN91_btnBlock {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  /* line 71, ../sass/_criminalRecord.scss */
+  .styleN91_btnBlock input {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+    background-color: #00b767;
+    border-radius: 5px;
+    border: none;
+    padding-top: 41px;
+    padding-bottom: 35px;
+    padding-left: 121px;
+    padding-right: 121px;
+  }
+
+  /* line 88, ../sass/_criminalRecord.scss */
+  .styleN92_SlidePosition {
+    text-align: center;
+  }
+  /* line 90, ../sass/_criminalRecord.scss */
+  .styleN92_SlidePosition img {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* line 96, ../sass/_criminalRecord.scss */
+  .styleN93_Dot {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  /* line 105, ../sass/_criminalRecord.scss */
+  .styleN94_ActiveDot {
+    background-color: #3b70e9;
+  }
+}
+@media (min-width: 768px) {
+  /* line 116, ../sass/_criminalRecord.scss */
+  .styleN82_SectionCriminal {
+    width: 1002px;
+    margin: 0 auto;
+    background-color: #1550a4;
+    padding-top: 59px;
+    padding-left: 72px;
+  }
+
+  /* line 126, ../sass/_criminalRecord.scss */
+  .styleN83_TxtCrimTitle {
+    margin-left: 0px;
+    margin-bottom: 28px;
+    font-family: "Proxima Nova";
+    font-size: 31px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #fff;
+  }
+
+  /* line 136, ../sass/_criminalRecord.scss */
+  .styleN84_TxtCrimContent {
+    margin-left: 0px;
+    margin-bottom: 38px;
+    font-family: "Proxima Nova";
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+    line-height: 25px;
+  }
+
+  /* line 146, ../sass/_criminalRecord.scss */
+  .styleN85_BtnGroup input {
+    margin-right: 11px;
+  }
+  /* line 149, ../sass/_criminalRecord.scss */
+  .styleN85_BtnGroup img {
+    vertical-align: middle;
+  }
+
+  /* line 155, ../sass/_criminalRecord.scss */
+  .styleN86_CrimImg {
+    background-color: #2b79ec;
+    width: 242px;
+    text-align: center;
+    padding-top: 85px;
+    padding-bottom: 85px;
+    border-radius: 50%;
+    margin-left: 105px;
+    margin-bottom: 79px;
+  }
+}
 @media (max-width: 767px) {
   /* line 9, ../sass/_phoneNumbers.scss */
   .styleN27_BtnPadding {
