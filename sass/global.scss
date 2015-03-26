@@ -2,19 +2,20 @@
 @import "fonts";
 @import "header";
 @import "reportSection";
+@import "caption";
 @import "contactSection";
 @import "criminalRecord";
+@import "addressHisotory";
 @import "phoneNumbers";
-@import "caption";
 @import "relatives";
 @import "neighbors";
 @import "xShell";
 @import "footer";
-@import "addressHisotory";
+
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
 ///////////////GLOBAL SECTION/////////////////////////////////
-//@import "variable";
+@import "variable";
 //////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////
 ////////////FOR MOBILE DEVICE/////////////////////////////////
@@ -105,7 +106,7 @@
 
 }
 
-
+/*
 
 .extrabold{
   font-family: "Proxima Nova";
@@ -128,12 +129,4 @@
   font-weight: 300;
 }
 
-
-.rowBlockxshell{
-
-}
-
-.rowReport{
-
-
-}
+*/

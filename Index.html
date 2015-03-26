@@ -5,6 +5,7 @@
     <title>Main Page</title>
     <link href="css/svitla.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="css/global.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <script src="javascripts/jquery-2.1.3.js"></script>
 
 </head>
 <body>
@@ -150,13 +151,76 @@
 <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--/////////////////////////////////CRIMINAL RECORD SECTION/////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
+<!--Script for carousel in mobile version-->
+<script>
+    jQuery(function($){
+
+        $( '.styleN87_FirstSlide' ).click(function(){
+
+
+            $(".styleN87_FirstSlide").toggleClass("hiddenS");
+            $(".styleN88_SecondSlide").toggleClass("hiddenS");
+            $(".styleN93_Dot:nth-child(2)").toggleClass("styleN94_ActiveDot");
+            $(".styleN93_Dot:nth-child(1)").toggleClass("styleN94_ActiveDot");
+        })
+
+        $( '.styleN88_SecondSlide' ).click(function(){
+
+
+            $(".styleN88_SecondSlide").toggleClass("hiddenS");
+            $(".styleN87_FirstSlide").toggleClass("hiddenS");
+            $(".styleN93_Dot:nth-child(2)").toggleClass("styleN94_ActiveDot");
+            $(".styleN93_Dot:nth-child(1)").toggleClass("styleN94_ActiveDot");
+        })
+
+    })
+
+</script>
 <div class="rowSection">
     <div class="row styleN10_Caption">
         <div class="M12 S12 criminalCaption">Criminal Records</div>
     </div>
 </div>
 <!-- Body Section-->
+<div class="row styleN82_SectionCriminal">
+    <div class="hiddenS M6">
+        <div class="row styleN83_TxtCrimTitle">Find out if Jack Keroac <br/>has any criminal records.</div>
+        <div class="row styleN84_TxtCrimContent">Check our national court records database to find <br/> available online court records. Results may include
+            <br/> criminal records, judgments, liens, bankruptcies, motor <br/> accidents, inmate records, and more.</div>
+        <div class="row styleN85_BtnGroup">
+            <input type="button" class="styleN71_BtnUpgReport" value="Upgrade Report">
+            <a href="#" class="styleN11_infoIcon"><img src="img/helpIcon.png" alt=""/></a>
+        </div>
+    </div>
+    <div class="hiddenS M6">
+        <div class="row styleN86_CrimImg"><img src="img/criminalCircle.png" alt=""/></div>
 
+
+    </div>
+
+    <!--  For mobile Device-->
+
+    <div class="S12 hiddenM hiddenL styleN87_FirstSlide">
+        <div class="S12 styleN89_fSlideTitle">20<span>%</span></div>
+        <div class="S12 styleN90_fSlideTxt">of the U.S. population have criminal <br/>records. Check whether that includes
+            <br/> Jonathan Smithy.</div>
+
+    </div>
+
+    <div class="S12 hiddenM hiddenL styleN88_SecondSlide hiddenS">
+        <div class="S12 styleN93_sSlideTitle">Criminal Record Search</div>
+        <div class="S12 styleN94_sSlideTxt">Find out if Jack Keruac has any <br/>criminal records by upgrading <br/> this report to include a criminal
+            <br/>records check.</div>
+    </div>
+
+    <div class="S12 hiddenM hiddenL styleN91_btnBlock"><input type="button" class="styleN71_BtnUpgReport" value="Upgrade Now"></div>
+
+    <div class="S12 hiddenM hiddenL styleN92_SlidePosition">
+        <div class="styleN93_Dot styleN94_ActiveDot"></div>
+        <div class="styleN93_Dot"></div>
+        <div class="styleN93_Dot"></div></div>
+
+</div>
 <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
 <!--/////////////////////////////////ADDRESS HISTORY SECTION/////////////////////////////////////-->
 <!--/////////////////////////////////////////////////////////////////////////////////////////////-->
