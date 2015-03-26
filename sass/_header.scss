@@ -12,7 +12,9 @@
   {
     background-color: #fafafa;
     border-bottom:1px solid #dee1e3;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
   }
   .styleN2_rowHeaderContent
   {
@@ -22,47 +24,50 @@
   }
   .styleN3_inputCollect
   {
-    display: inline;
+ //   display: inline;
     border-radius: 5px;
     border: 1px solid #d4d6d8;
-    padding-top: 18px;
-    padding-bottom: 19px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     background-color: #ffffff;
-    margin-right: 10px;
-  }
-
-
-
-  .styleN6_inputSearch
-  {
-    display: inline-block;
-    padding-left: 20px;
-    margin-bottom: 28px;
-  }
-
-
-  .styleN9_btnSearch{
-    display: inline-block;
-    background-color: #2b79ec;
-    padding-top: 8px;
-    padding-left: 19px;
-    padding-right: 19px;
-    border-radius: 5px;
-    width: 67px;
-    height: 55px;
+    //margin-right: 10px;
+    width: 455px;
+    height: 75px;
+    margin: 0 auto;
     input{
       border: none;
     }
-    img{
-      position: relative;
-      top: 8px;
-    }
-    box-shadow: 1px 1px 0  #1b4ca2;
-    -webkit-box-shadow: 1px 1px 0 #1b4ca2;
-    -moz-box-shadow: 1px 1px 0 #1b4ca2;
   }
 
+  .styleN1_1_BtnHome{
+    position: relative;
+    right:-35px;
+    top:20px;
+  }
+  .styleN1_2_InputSearch{
+    input{
+      font-family: "Proxima Nova";
+      color:#808080;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 70px;
+      text-align: left;
+      margin-left: 27px;
+    }
 
+
+  }
+  .styleN1_3_BtnSearch{
+    position: relative;
+    right:-20px;
+    top:15px;
+
+  }
+  .styleN1_4_BtnMenu{
+position: relative;
+    left:-20px;
+    top:20px;
+  }
 
 }
 //////////////////////////////////////////////////////////////

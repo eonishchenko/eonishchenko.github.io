@@ -94,76 +94,84 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-weight: 900;
 }
 @media (max-width: 767px) {
-  /* line 11, ../sass/header.scss */
+  /* line 11, ../sass/_header.scss */
   .styleN1_rowHeader {
     background-color: #fafafa;
     border-bottom: 1px solid #dee1e3;
-    padding-top: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 0 auto;
   }
 
-  /* line 17, ../sass/header.scss */
+  /* line 19, ../sass/_header.scss */
   .styleN2_rowHeaderContent {
     width: 640px;
     margin: 0 auto;
   }
 
-  /* line 23, ../sass/header.scss */
+  /* line 25, ../sass/_header.scss */
   .styleN3_inputCollect {
-    display: inline;
     border-radius: 5px;
     border: 1px solid #d4d6d8;
-    padding-top: 18px;
-    padding-bottom: 19px;
+    padding-top: 1px;
+    padding-bottom: 1px;
     background-color: #ffffff;
-    margin-right: 10px;
+    width: 455px;
+    height: 75px;
+    margin: 0 auto;
   }
-
-  /* line 36, ../sass/header.scss */
-  .styleN6_inputSearch {
-    display: inline-block;
-    padding-left: 20px;
-    margin-bottom: 28px;
-  }
-
-  /* line 44, ../sass/header.scss */
-  .styleN9_btnSearch {
-    display: inline-block;
-    background-color: #2b79ec;
-    padding-top: 8px;
-    padding-left: 19px;
-    padding-right: 19px;
-    border-radius: 5px;
-    width: 67px;
-    height: 55px;
-    box-shadow: 1px 1px 0  #1b4ca2;
-    -webkit-box-shadow: 1px 1px 0 #1b4ca2;
-    -moz-box-shadow: 1px 1px 0 #1b4ca2;
-  }
-  /* line 53, ../sass/header.scss */
-  .styleN9_btnSearch input {
+  /* line 37, ../sass/_header.scss */
+  .styleN3_inputCollect input {
     border: none;
   }
-  /* line 56, ../sass/header.scss */
-  .styleN9_btnSearch img {
+
+  /* line 42, ../sass/_header.scss */
+  .styleN1_1_BtnHome {
     position: relative;
-    top: 8px;
+    right: -35px;
+    top: 20px;
+  }
+
+  /* line 48, ../sass/_header.scss */
+  .styleN1_2_InputSearch input {
+    font-family: "Proxima Nova";
+    color: #808080;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 70px;
+    text-align: left;
+    margin-left: 27px;
+  }
+
+  /* line 60, ../sass/_header.scss */
+  .styleN1_3_BtnSearch {
+    position: relative;
+    right: -20px;
+    top: 15px;
+  }
+
+  /* line 66, ../sass/_header.scss */
+  .styleN1_4_BtnMenu {
+    position: relative;
+    left: -20px;
+    top: 20px;
   }
 }
 @media (min-width: 768px) {
-  /* line 73, ../sass/header.scss */
+  /* line 78, ../sass/_header.scss */
   .styleN1_rowHeader {
     background-color: #fafafa;
     border-bottom: 1px solid #dee1e3;
     padding-top: 20px;
   }
 
-  /* line 79, ../sass/header.scss */
+  /* line 84, ../sass/_header.scss */
   .styleN2_rowHeaderContent {
     width: 1002px;
     margin: 0 auto;
   }
 
-  /* line 85, ../sass/header.scss */
+  /* line 90, ../sass/_header.scss */
   .styleN3_inputCollect {
     display: inline;
     border-radius: 5px;
@@ -174,12 +182,12 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     margin-right: 10px;
   }
 
-  /* line 95, ../sass/header.scss */
+  /* line 100, ../sass/_header.scss */
   .styleN4_inputKindSearch {
     display: inline-block;
   }
 
-  /* line 99, ../sass/header.scss */
+  /* line 104, ../sass/_header.scss */
   .styleN5_selectTxt {
     font-family: "Proxima Nova";
     margin-left: 20px;
@@ -190,19 +198,19 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     font-weight: 700;
     width: 166px;
   }
-  /* line 109, ../sass/header.scss */
+  /* line 114, ../sass/_header.scss */
   .styleN5_selectTxt :after {
     content: url("../img/dropdownIcon.png");
   }
 
-  /* line 113, ../sass/header.scss */
+  /* line 118, ../sass/_header.scss */
   .styleN6_inputSearch {
     display: inline-block;
     padding-left: 20px;
     margin-bottom: 28px;
   }
 
-  /* line 119, ../sass/header.scss */
+  /* line 124, ../sass/_header.scss */
   .styleN7_labelFindNear {
     font-family: "Proxima Nova";
     color: #646c6c;
@@ -211,7 +219,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     border: none;
   }
 
-  /* line 127, ../sass/header.scss */
+  /* line 132, ../sass/_header.scss */
   .styleN8_inputFindNear {
     font-family: "Proxima Nova";
     color: #b3b3b3;
@@ -221,7 +229,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 283px;
   }
 
-  /* line 137, ../sass/header.scss */
+  /* line 142, ../sass/_header.scss */
   .styleN9_btnSearch {
     display: inline-block;
     background-color: #2b79ec;
@@ -235,11 +243,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     -webkit-box-shadow: 1px 1px 0 #1b4ca2;
     -moz-box-shadow: 1px 1px 0 #1b4ca2;
   }
-  /* line 146, ../sass/header.scss */
+  /* line 151, ../sass/_header.scss */
   .styleN9_btnSearch input {
     border: none;
   }
-  /* line 149, ../sass/header.scss */
+  /* line 154, ../sass/_header.scss */
   .styleN9_btnSearch img {
     position: relative;
     top: 8px;
