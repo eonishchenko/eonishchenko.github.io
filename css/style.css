@@ -14,16 +14,25 @@ div{
     margin: 0;
     padding: 0;
 }
-h1,h2,h3,h4,h5,h6,p,ul,li,span,img{
+h1,h2,h3,h4,h5,h6,p,ul,li,span,img,select,input{
     line-height: 1;
     font-size: 0;
     margin: 0;
     padding: 0;
 }
-button{
+button, select, input{
     border: none;
     font-family: roboto, sans-serif;
 }
+input:focus, input:active{
+  border: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
+}
+
 img{
     vertical-align: middle;
     max-width: 100%;
@@ -80,7 +89,6 @@ img{
     left: 0;
     right: 0;
 }
-
 .slider-items > li {
     float: left;
     width: 20%;
@@ -249,5 +257,136 @@ img{
     width: 100%;
 }
 .btn-store:hover{
-    opacity: 0.8;
+  opacity: 0.8;
+}
+
+.popular-section{
+  min-height: 628px;
+  padding-top: 4.45rem;
+}
+.popular-title{
+  color:  #000000;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 3.1rem;
+}
+.popular-items-wrap {
+  max-width: 1878px;
+  margin: 0 auto;
+}
+.popular-item{
+  float: left;
+  width: 490px;
+  margin-right: 12.6rem;
+}
+.popular-item:last-child{
+  margin-right: 0;
+}
+.popular-item-image {
+  margin-bottom: 0.7rem;
+}
+.popular-item-description{
+  color:  #000000;
+  font-size: 0.938rem;
+  font-weight: 700;
+  text-align: left;
+  line-height: 1.4;
+  float: left;
+}
+.popular-item-price{
+  color:  #000000;
+  font-size: 0.938rem;
+  font-weight: 300;
+}
+.popular-item > .button-wrap{
+  float: right;
+}
+.popular-item-options{
+  float: right;
+}
+.popular-item-options > select{
+  border: 1px solid #8f8f8f;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color:  #000000;
+  font-size: 0.75rem;
+  font-weight: 700;
+  width: 144px;
+  height: 43px;
+  margin-right: 9px;
+  padding-left: 1.1rem;
+}
+
+.btn-buy{
+  cursor: pointer;
+  border-radius: 10px;
+  background-color:  #b7b7b7;
+  min-height: 43px;
+  color:  #ffffff;
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-align: center;
+  padding-left: 2.2rem;
+  padding-right: 2.2rem;
+}
+.btn-buy:hover{
+  background-color: #000;
+  color:  #fdff19;
+}
+.contact-us-section{
+  min-height: 634px;
+  background-image: url("./../images/contact-us-bg.jpg");
+  padding-top: 3.9rem;
+}
+.contact-us-title{
+  color:  #000000;
+  font-size: 1.75rem;
+  font-weight: 700;
+  text-align: center;
+  padding-bottom: 3.4rem;
+}
+.contact-us-subtitle{
+  color:  #000000;
+  font-size: 0.938rem;
+  font-weight: 400;
+  text-align: center;
+  padding-bottom: 3rem;
+}
+.form-wrap{
+  width: 451px;
+  margin: 0 auto;
+}
+.feedback-form input{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  border: 1px solid #dadada;
+  min-height: 43px;
+  width: 100%;
+  color:  #808080;
+  font-size: 0.75rem;
+  font-style: italic;
+  box-sizing: border-box;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+}
+.feedback-form input:focus, .feedback-form input:active{
+  border: 2px solid #f5f5f5;
+}
+.input-name-wrap{
+  width: 49%;
+  float: left;
+}
+.input-surname-wrap{
+  width: 49%;
+  float: right;
+}
+.input-email-wrap{
+  width: 100%;
+  float: left;
 }
