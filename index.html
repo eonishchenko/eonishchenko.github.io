@@ -2,231 +2,117 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>The Bike Shop</title>
+    <title>Анализ уровня витаминов в организме с Vitastiq</title>
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,400i,700" rel="stylesheet">
-    <link rel="icon" href="./images/favicon.ico"/>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="icon" href="./images/favicon.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="apple-touch-icon" href="./images/apple-icon-60x60.png" />
-		<link rel="apple-touch-icon" sizes="76x76" href="./images//apple-icon-76x76.png" />
-		<link rel="apple-touch-icon" sizes="120x120" href="./images//apple-icon-120x120.png" />
-		<link rel="apple-touch-icon" sizes="152x152" href="./images//apple-icon-152x152.png" />
-</head>
+
 <body>
-<div class="main-section cf">
-    <header class="header">
-        <div class="logo-wrap">
-            <img src="./images/logo-bike.png" alt="Bike shop logo" class="logo" width="160"/>
-        </div>
-        <div class="basket-wrap">
-            <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26px" height="26px" viewBox="0 0 26 26" class="icon-basket">
-                <path fillRule="evenodd" d="M 25.45 4.96C 25.84 5.21 26.07 5.67 26.01 6.16 26.01 6.16 24.5 15.48 24.5 15.48 24.41 16.16 23.78 16.64
-                         23.1 16.54 23.1 16.54 23 16.53 23 16.53 23 16.53 7.75 16.53 7.75 16.53 7.75 16.53 8.13 19.06 8.13 19.06 8.13 19.06 21.66 19.06 21.66
-                          19.06 22.31 19.06 22.84 19.59 22.84 20.25 22.84 20.25 22.84 20.37 22.84 20.37 22.84 21.03 22.31 21.56 21.66 21.56 21.66 21.56 7.18
-                           21.56 7.18 21.56 7.18 21.56 7.14 21.57 7.14 21.57 6.45 21.68 5.81 21.22 5.7 20.54 5.7 20.54 3.14 3.68 3.14 3.68 3.09 3.32 3.19 2.98
-                            3.4 2.72 3.4 2.72 1.31 2.72 1.31 2.72 0.59 2.72-0 2.13-0 1.4-0 1.4-0 1.31-0 1.31-0 0.59 0.59-0 1.31-0 1.31-0 4.44-0 4.44-0 5.16-0
-                             5.75 0.59 5.75 1.31 5.75 1.31 5.75 1.4 5.75 1.4 5.75 1.84 5.54 2.21 5.22 2.45 5.29 2.5 5.33 2.56 5.39 2.62 5.39 2.62 24.72 2.62
-                              24.72 2.62 25.41 2.62 25.97 3.19 25.97 3.88 25.97 3.88 25.97 3.97 25.97 3.97 25.97 4.38 25.75 4.73 25.45 4.96ZM 21.99 13.78C 21.99
-                               13.78 22.56 10.28 22.56 10.28 22.56 10.28 17.5 10.28 17.5 10.28 17.5 10.28 17.5 13.78 17.5 13.78 17.5 13.78 21.99 13.78 21.99 13.78ZM
-                                16.5 13.78C 16.5 13.78 16.5 10.28 16.5 10.28 16.5 10.28 12.22 10.28 12.22 10.28 12.22 10.28 12.22 13.78 12.22 13.78 12.22 13.78
-                                 16.5 13.78 16.5 13.78ZM 7.33 13.78C 7.33 13.78 11.22 13.78 11.22 13.78 11.22 13.78 11.22 10.28 11.22 10.28 11.22 10.28 6.8 10.28
-                                  6.8 10.28 6.8 10.28 7.33 13.78 7.33 13.78ZM 6.03 5.22C 6.03 5.22 6.64 9.27 6.64 9.27 6.67 9.26 6.7 9.25 6.73 9.25 6.73 9.25 11.22
-                                   9.25 11.22 9.25 11.22 9.25 11.22 5.22 11.22 5.22 11.22 5.22 6.03 5.22 6.03 5.22ZM 12.22 5.22C 12.22 5.22 12.22 9.25 12.22 9.25
-                                    12.22 9.25 16.5 9.25 16.5 9.25 16.5 9.25 16.5 5.22 16.5 5.22 16.5 5.22 12.22 5.22 12.22 5.22ZM 17.5 5.22C 17.5 5.22 17.5 9.25
-                                     17.5 9.25 17.5 9.25 22.72 9.25 22.72 9.25 22.72 9.25 23.28 5.79 23.28 5.79 23.31 5.57 23.41 5.38 23.54 5.22 23.54 5.22 17.5
-                                      5.22 17.5 5.22ZM 9.06 23.19C 10.13 23.19 11 23.82 11 24.59 11 25.37 10.13 26 9.06 26 7.99 26 7.12 25.37 7.12 24.59 7.12 23.82
-                                       7.99 23.19 9.06 23.19ZM 21.03 23.19C 22.1 23.19 22.97 23.82 22.97 24.59 22.97 25.37 22.1 26 21.03 26 19.96 26 19.09 25.37
-                                        19.09 24.59 19.09 23.82 19.96 23.19 21.03 23.19Z" fill="rgb(255,255,255)"/>
-            </svg>
-        </div>
-        <div class="menu-wrap">
-            <ul class="menu-items">
-                <li> <span>BICYCLES</span>
-                    <ul class="menu-item-drop">
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </li>
-                <li><span>PARTS</span></li>
-                <li><span>ACCESSORIES</span></li>
-                <li><span>EXTRAS</span></li>
-            </ul>
-
-        </div>
-
-    </header>
-    <div class="hero-wrap">
-        <h1 class="hero-title">
-            HANDMADE BICYCLE
-        </h1>
-        <h2 class="hero-subtitle">
-            You <span>create</span> the <span>journey,</span> we supply the <span>parts.</span>
-        </h2>
-        <div class="button-wrap">
-            <button class="btn-shop">SHOP BIKES</button>
-        </div>
-    </div>
-    <div class="scroll-left-wrap">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58px" height="58px" viewBox="0 0 58 58" class="scroll-button">
-            <path fillRule="evenodd" d="M 48 56C 52.41 56 56 52.41 56 48 56 48 56 10 56 10 56 5.59 52.41 2 48 2 48 2 10 2 10 2 5.59 2 2 5.59 2 10 2 10 2 48 2 48 2 52.41 5.59 56 10 56 10 56 48 56 48 56M 33.6 14.99C 35.04 14.99 36.4 15.57 37.42 16.62 39.48 18.75 39.48 22.21 37.42 24.33 37.42 24.33 32.91 29 32.91 29 32.91 29 37.42 33.66 37.42 33.66 39.48 35.79 39.48 39.25 37.42 41.37 36.4 42.43 35.04 43.01 33.6 43.01 32.15 43.01 30.79 42.43 29.77 41.37 29.77 41.37 21.53 32.85 21.53 32.85 20.53 31.82 19.98 30.45 19.98 29 19.98 27.54 20.53 26.17 21.53 25.14 21.53 25.14 29.77 16.62 29.77 16.62 30.79 15.57 32.15 14.99 33.6 14.99M 48 58C 48 58 10 58 10 58 4.48 58 0 53.52 0 48 0 48 0 10 0 10 0 4.48 4.48-0 10-0 10-0 48-0 48-0 53.52-0 58 4.48 58 10 58 10 58 48 58 48 58 53.52 53.52 58 48 58 48 58 48 58 48 58ZM 33.6 16.99C 32.73 16.99 31.87 17.33 31.21 18.01 31.21 18.01 22.97 26.53 22.97 26.53 22.31 27.21 21.98 28.1 21.98 29 21.98 29.89 22.31 30.78 22.97 31.46 22.97 31.46 31.21 39.98 31.21 39.98 31.87 40.66 32.73 41.01 33.6 41.01 34.46 41.01 35.32 40.66 35.98 39.98 37.3 38.62 37.3 36.41 35.98 35.05 35.98 35.05 30.13 29 30.13 29 30.13 29 35.98 22.94 35.98 22.94 37.3 21.58 37.3 19.37 35.98 18.01 35.32 17.33 34.46 16.99 33.6 16.99 33.6 16.99 33.6 16.99 33.6 16.99Z" fill="rgb(83,83,83)"/>
-        </svg>
-    </div>
-    <div class="scroll-right-wrap">
-        <?xml version="1.0" encoding="utf-8"?>
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="58px" height="58px" viewBox="0 0 58 58" class="scroll-button">
-            <path fillRule="evenodd" d="M 48 56C 52.41 56 56 52.41 56 48 56 48 56 10 56 10 56 5.59 52.41 2 48 2 48 2 10 2 10 2 5.59 2 2 5.59 2 10 2 10 2 48 2 48 2 52.41 5.59 56 10 56 10 56 48 56 48 56M 25.09 29C 25.09 29 20.58 24.33 20.58 24.33 18.52 22.21 18.52 18.75 20.58 16.62 21.6 15.57 22.96 14.99 24.4 14.99 25.85 14.99 27.21 15.57 28.23 16.62 28.23 16.62 36.47 25.14 36.47 25.14 37.47 26.17 38.02 27.54 38.02 29 38.02 30.45 37.47 31.82 36.47 32.85 36.47 32.85 28.23 41.37 28.23 41.37 27.21 42.43 25.85 43.01 24.4 43.01 22.96 43.01 21.6 42.43 20.58 41.37 18.52 39.25 18.52 35.79 20.58 33.66 20.58 33.66 25.09 29 25.09 29M 48 58C 48 58 10 58 10 58 4.48 58-0 53.52-0 48-0 48-0 10-0 10-0 4.48 4.48-0 10-0 10-0 48-0 48-0 53.52-0 58 4.48 58 10 58 10 58 48 58 48 58 53.52 53.52 58 48 58 48 58 48 58 48 58ZM 24.4 16.99C 23.54 16.99 22.68 17.33 22.02 18.01 20.7 19.37 20.7 21.58 22.02 22.94 22.02 22.94 27.87 29 27.87 29 27.87 29 22.02 35.05 22.02 35.05 20.7 36.41 20.7 38.62 22.02 39.98 22.68 40.66 23.54 41.01 24.4 41.01 25.27 41.01 26.13 40.66 26.79 39.98 26.79 39.98 35.03 31.46 35.03 31.46 35.69 30.78 36.02 29.89 36.02 29 36.02 28.1 35.69 27.21 35.03 26.53 35.03 26.53 26.79 18.01 26.79 18.01 26.13 17.33 25.27 16.99 24.4 16.99 24.4 16.99 24.4 16.99 24.4 16.99Z" fill="rgb(83,83,83)"/>
-        </svg>
-    </div>
-    <div class="scroll-down-wrap">
-        <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="66px" height="77px" viewBox="0 0 66 77" class="scroll-down">
-            <path fillRule="evenodd" d="M 55.78 43.51C 55.78 43.51 55.78 41.14 55.78 41.14 60.14 40.97 63.62 37.39 63.62 32.99 63.62 28.48 59.96 24.83 55.45 24.83 50.94 24.83 47.29 28.48 47.29 32.99 47.29 37.27 50.59 40.78 54.78 41.12 54.78 41.12 54.78 43.5 54.78 43.5 50.79 43.31 47.36 40.96 45.68 37.57 41.34 44.62 33.55 49.32 24.66 49.32 11.04 49.32-0 38.28-0 24.66-0 11.04 11.04-0 24.66-0 38.04-0 48.92 10.65 49.31 23.93 51.02 22.78 53.07 22.11 55.28 22.11 61.2 22.11 66 26.91 66 32.82 66 38.57 61.47 43.25 55.78 43.51ZM 24.66 2.72C 12.55 2.72 2.72 12.54 2.72 24.66 2.72 36.78 12.55 46.6 24.66 46.6 33.52 46.6 41.15 41.35 44.61 33.79 44.58 33.47 44.57 33.15 44.57 32.82 44.57 32.11 44.64 31.41 44.77 30.73 44.77 30.73 27.04 26.87 27.04 26.87 27.04 26.87 26.62 26.87 26.62 26.87 26.14 27.29 25.52 27.55 24.83 27.55 23.33 27.55 22.11 26.33 22.11 24.83 22.11 23.77 22.72 22.86 23.6 22.41 23.29 22.26 23.12 22.18 23.5 22.18 23.5 22.18 23.63 22.39 23.63 22.39 23.64 22.39 23.65 22.38 23.67 22.37 23.67 22.37 23.56 22.18 23.56 22.18 23.66 22.18 23.77 22.2 23.87 22.21 23.87 22.21 24.15 21.74 24.15 21.74 24.15 21.74 24.31 21.83 24.31 21.83 24.31 21.83 31.94 3.96 31.94 3.96 29.66 3.16 27.21 2.72 24.66 2.72ZM 34.69 5.14C 34.69 5.14 26.82 22.98 26.82 22.98 26.96 23.13 27.08 23.29 27.19 23.47 27.19 23.47 27.22 23.47 27.22 23.47 27.22 23.47 27.22 23.52 27.22 23.52 27.27 23.61 27.31 23.71 27.35 23.81 27.35 23.81 27.9 23.81 27.9 23.81 27.9 23.81 27.9 24 27.9 24 27.9 24 45.64 28.15 45.64 28.15 45.89 27.63 46.18 27.14 46.51 26.68 46.57 26.01 46.61 25.34 46.61 24.66 46.61 16.15 41.76 8.78 34.69 5.14ZM 55.78 43.51C 55.78 43.51 55.78 49 55.78 49 55.78 49 54.78 49 54.78 49 54.78 49 54.78 43.5 54.78 43.5 54.95 43.51 55.11 43.54 55.28 43.54 55.45 43.54 55.62 43.52 55.78 43.51ZM 54.78 41.12C 54.78 41.12 54.78 34.23 54.78 34.23 54.93 34.31 55.1 34.35 55.28 34.35 55.46 34.35 55.63 34.31 55.78 34.24 55.78 34.24 55.78 41.14 55.78 41.14 55.67 41.14 55.56 41.16 55.45 41.16 55.23 41.16 55 41.14 54.78 41.12ZM 54.09 33.16C 54.09 32.51 54.63 31.97 55.28 31.97 55.94 31.97 56.47 32.51 56.47 33.16 56.47 33.64 56.19 34.05 55.78 34.24 55.78 34.24 55.78 33.34 55.78 33.34 55.78 33.34 54.78 33.34 54.78 33.34 54.78 33.34 54.78 34.23 54.78 34.23 54.38 34.04 54.09 33.64 54.09 33.16ZM 60.22 50C 60.22 50 54.78 50 54.78 50 54.78 50 54.78 49.69 54.78 49.69 54.78 49.69 55.78 49.69 55.78 49.69 55.78 49.69 55.78 49 55.78 49 55.78 49 60.22 49 60.22 49 60.22 49 60.22 50 60.22 50ZM 34.5 59C 33.67 59 33 58.33 33 57.5 33 57.5 33 52.5 33 52.5 33 51.67 33.67 51 34.5 51 35.33 51 36 51.67 36 52.5 36 52.5 36 57.5 36 57.5 36 58.33 35.33 59 34.5 59ZM 36 66.5C 36 67.33 35.33 68 34.5 68 33.67 68 33 67.33 33 66.5 33 66.5 33 62.5 33 62.5 33 61.67 33.67 61 34.5 61 35.33 61 36 61.67 36 62.5 36 62.5 36 66.5 36 66.5ZM 31.22 68.57C 31.22 68.57 34.5 72.09 34.5 72.09 34.5 72.09 37.78 68.57 37.78 68.57 38.52 67.78 39.71 67.78 40.45 68.57 41.19 69.36 41.19 70.65 40.45 71.44 40.45 71.44 35.83 76.39 35.83 76.39 35.1 77.19 33.9 77.19 33.16 76.39 33.16 76.39 28.55 71.44 28.55 71.44 27.81 70.65 27.81 69.36 28.55 68.57 29.28 67.78 30.48 67.78 31.22 68.57Z" fill="rgb(81,79,79)"/>
-        </svg>
-    </div>
-    <div class="slider-wrap">
-        <ul class="slider-items">
-            <li></li>
-            <li class="active"></li>
-            <li></li>
-            <li></li>
-            <li></li>
-        </ul>
-    </div>
- </div>
-<div class="categories-section">
-<h2 class="categories-title">CATEGORIES</h2>
-    <div class="categories-images-wrap cf">
-        <div class="categories-image-item">
-            <img src="./images/categories-photo-1.jpg" alt="Fixed or Single Speed" />
-            <div class="categories-content">
-                <h3 class="categories-subtitle">FIXED / SINGLE SPEED</h3>
-                <p class="categories-text">Are You ready for the 27.5 Revolution?</p>
-            </div>
-
-        </div>
-        <div class="categories-image-item">
-            <img src="./images/categories-photo-2.jpg" alt="Premium Series Bikes"/>
-            <div class="categories-content">
-                <h3 class="categories-subtitle">PREMIUM SERIES</h3>
-                <p class="categories-text">Exclusive  Bike Components</p>
-                <div class="button-wrap">
-                    <button class="btn-store">
-                        GO TO STORE
-                    </button>
-                </div>
-            </div>
-
-        </div>
-        <div class="categories-image-item">
-            <img src="./images/categories-photo-3.jpg" alt="City Bikes"/>
-            <div class="categories-content">
-                <h3 class="categories-subtitle">CITY BIKES</h3>
-                <p class="categories-text">Street Playground</p>
-
-            </div>
-        </div>
-    </div>
-</div>
-<div class="popular-section">
-	<h2 class="popular-title">POPULAR BIKES</h2>
-	<div class="popular-items-wrap cf">
-		<div class="popular-item">
-			<div class="popular-item-image">
-				<img src="./images/item-1.png" alt="Bike with Fixed Gear"/>
+<header class="cf">
+	<div class="logo-wrap">
+		<img src="./images/logo.png" alt="VitaStick" class="logo" width="160"/>
+	</div>
+	<div class="menu-wrap">
+		<ul class="menu-items">
+			<li><a href="#product">Продукт</a></li>
+			<li><a href="#description">Описание</a></li>
+			<li><a href="#contact">Контакты</a></li>
+			<li><a href="#delivery">Доставка</a></li>
+			<li><a href="#buy">Купить</a></li>
+		</ul>
+	</div>
+</header>
+<main>
+	<div class="section-product" id="product">
+		<h2>Продукты</h2>
+		<div class="product-wrap cf">
+			<div class="product-v2">
+				<img src="./images/second-edition.png" alt="Vitastiq 2">
+				<h3 class="product-title">Vitastiq 2</h3>
+				<h4 class="product-subtitle">2nd Edition Device</h4>
+				<div class="product-description-wrap">
+					<ul>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+					</ul>
+				</div>
+				<div class="button-wrap">
+					<a href="#buy">Заказать</a>
+				</div>
 			</div>
-			<p class="popular-item-description">
-					FIXED GEAR <br>
-				<span class="popular-item-price">
-					$249.00
-				</span>
-			</p>
-			<div class="button-wrap">
-				<button class="btn-buy">
-					BUY
-				</button>
-			</div>
-			<div class="popular-item-options">
-				<select name="options" id="item-options-1">
-					<option>Color Red</option>
-					<option>Color Green</option>
-					<option>Color Blue</option>
-					<option>Color Silver</option>
-					<option>Color Transparent</option>
-				</select>
-			</div>
-		</div>
-		<div class="popular-item">
-			<div class="popular-item-image">
-				<img src="./images/item-2.png" alt="Bike with Fixed Gear"/>
-			</div>
-			<p class="popular-item-description">
-				BIG BOY ULTRA <br>
-				<span class="popular-item-price">
-					$249.00
-				</span>
-			</p>
-			<div class="button-wrap">
-				<button class="btn-buy">
-					BUY
-				</button>
-			</div>
-			<div class="popular-item-options">
-				<select name="options" id="item-options-2">
-					<option>Color Red</option>
-					<option>Color Green</option>
-					<option>Color Blue</option>
-					<option>Color Silver</option>
-					<option>Color Transparent</option>
-				</select>
-			</div>
-		</div>
-		<div class="popular-item">
-			<div class="popular-item-image">
-				<img src="./images/item-3.png" alt="Bike with Fixed Gear"/>
-			</div>
-			<p class="popular-item-description">
-					SANCHAEZ <br>
-				<span class="popular-item-price">
-					$249.00
-				</span>
-			</p>
-			<div class="button-wrap">
-				<button class="btn-buy">
-					BUY
-				</button>
-			</div>
-			<div class="popular-item-options">
-				<select name="options" id="item-options-3">
-					<option>Color Red</option>
-					<option>Color Green</option>
-					<option>Color Blue</option>
-					<option>Color Silver</option>
-					<option>Color Transparent</option>
-				</select>
+			<div class="product-family">
+				<img src="./images/family-edition.png" alt="Vitastiq 2">
+				<h3 class="product-title">Vitastiq Family</h3>
+				<h4 class="product-subtitle">Family Edition</h4>
+				<div class="product-description-wrap">
+					<ul>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+						<li>lorem Ipsum</li>
+					</ul>
+				</div>
+				<div class="button-wrap">
+					<a href="#buy">Заказать</a>
+				</div>
 			</div>
 		</div>
 	</div>
-</div>
-<div class="contact-us-section">
-<h2 class="contact-us-title">
-	CONTACT US
-</h2>
-	<h3 class="contact-us-subtitle">
-		Please contact us for all inquiries and purchase options.
-	</h3>
-	<div class="form-wrap">
-		<form action="post" class="feedback-form">
-			<div class="input-name-wrap">
-				<input type="text" placeholder="NAME"/>
-			</div>
-			<div class="input-surname-wrap">
-				<input type="text" placeholder="SURNAME"/>
-			</div>
-			<div class="input-email-wrap">
-				<input type="text" placeholder="USER@DOMAIN.COM"/>
-			</div>
+	<div class="section-description" id="description">
+		<h2>Описание продуктов VitalStiq</h2>
+	</div>
+	<div class="section-contact" id="contact" >
+		<h2>Контакты</h2>
+		<p>Связаться с нами можно по:</p>
+		<ul>
+			<li>Skype:	vitaStiq</li>
+			<li>Viber:	+38(095)5555555</li>
+			<li>Telegram:	+38(095)5555555</li>
+			<li>Email:	vitaStiq@mydomain.com</li>
+		</ul>
+		<p>А так-же можете заполнить форму обратной связи, мы с вами свяжемся</p>
+		<!--
+		<form action="">
+			<input type="text">
+			<input type="tel">
+			<input type="email">
+			<textarea name="comment" id="" cols="30" rows="10"></textarea>
 		</form>
+		-->
 	</div>
-</div>
+	<div class="section-delivery" id="delivery">
+		<h2>Мы доставляем VitaStiq по всей Украине.</h2>
+		<p>Для доставки используются курьерские службы</p>
+	</div>
+	<div class="section-bay" id="buy">
+		<h2>Как купить</h2>
+		<p>Продукцию VitalStiq можно купить, оставив заявку одним из способов, указанных в контактах</p>
+
+	</div>
+
+</main>
+<footer></footer>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+	$(".menu-wrap").click( function () {
+			$(this).toggleClass("expand");
+      }
+	);
+</script>
 </html>
