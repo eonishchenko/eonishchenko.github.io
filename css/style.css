@@ -102,6 +102,7 @@ main > div {
 main > div > h2{
   font-size: 1.8rem;
   text-align: center;
+  margin-bottom: 2rem;
 }
 main>div:nth-child(odd){
   background-color: #fff;
@@ -128,6 +129,17 @@ main>div:nth-child(even){
 }
 
 .section-description{}
+.section-description h2{
+  margin-bottom: 1rem;
+}
+
+.section-description p{
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.1;
+  margin-bottom: 0.5rem;
+}
+
 .section-contact{}
 .section-contact p, .section-contact li{
   color: #666;
@@ -146,14 +158,6 @@ footer{
   min-height: 20rem;
 }
 
-
-
-
-.main-section{
-    background-image: url("./../images/hero-image.jpg");
-    min-height: 980px;
-    position: relative;
-}
 
 .scroll-left-wrap{
     cursor: pointer;
@@ -211,12 +215,31 @@ footer{
   padding: 1rem 0.5rem;
   border-radius: 4px;
   border: 1px solid #666;
+  min-height: 15.5rem;
 }
 .product-description-wrap ul{
   list-style-type: none;
 }
 .product-description-wrap li{
   color: #666;
+}
+.product-title{
+  color: #666;
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.product-subtitle{
+  color: #666;
+  font-weight: 100;
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+.product-price{
+  color: #0af;
+  line-height: 2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 .button-wrap{
   margin-top: 3rem;
