@@ -137,7 +137,7 @@ main>div:nth-child(even){
   color: #666;
   font-size: 1rem;
   line-height: 1.1;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .section-contact{}
@@ -155,9 +155,19 @@ main>div:nth-child(even){
 
 footer{
   background-color: #0af;
-  min-height: 20rem;
+  min-height: 5.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
-
+.program-link-wrap{
+  width: 290px;
+  margin: 0 auto;
+}
+.program-link-wrap a{
+  text-decoration: none;
+}
 
 .scroll-left-wrap{
     cursor: pointer;
