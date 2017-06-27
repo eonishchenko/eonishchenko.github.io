@@ -89,7 +89,6 @@ header{
   display: none;
 }
 .menu-items .button-bay{
-  box-sizing: border-box;
   background-color: #0af;
 }
 .button-bay a{
@@ -317,6 +316,9 @@ footer{
     background-color: #fff;
     border-top: 1px solid #f2f8f9;
     border-bottom: 1px solid #f2f8f9;
+  }
+  .expand.menu-wrap .button-bay{
+    background-color: #0af;
   }
   .menu-items a{
     font-size: 1.4rem;
