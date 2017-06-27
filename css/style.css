@@ -88,6 +88,17 @@ header{
 .menu-item-drop{
   display: none;
 }
+.menu-items .button-bay{
+  box-sizing: border-box;
+  background-color: #0af;
+}
+.button-bay a{
+  color: #fff;
+}
+
+.menu-items .button-bay:hover a{
+  color: #fff;
+}
 
 main{
   min-height: 20rem;
@@ -168,7 +179,9 @@ footer{
 .program-link-wrap a{
   text-decoration: none;
 }
-
+.program-link-wrap img{
+  opacity: 0.65;
+}
 .scroll-left-wrap{
     cursor: pointer;
     position: absolute;
