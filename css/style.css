@@ -323,6 +323,10 @@ footer{
   .menu-items a{
     font-size: 1.4rem;
   }
+  .program-link-wrap{
+    text-align: center;
+    width: auto;
+  }
 }
 
 /*
