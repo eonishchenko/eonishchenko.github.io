@@ -78,7 +78,6 @@ header{
   padding-right: 1rem;
   padding-bottom: 1rem;
   padding-left: 1.2rem;
-  background: url('../images/carbon_bg_small.jpg') repeat repeat;
 }
 .menu-items a{
   color: #bd9f54;
@@ -178,7 +177,7 @@ footer{
   padding-bottom: 1rem;
   padding-left: 2rem;
   padding-right: 2rem;
-    background: url('../images/carbon_bg_small.jpg') repeat repeat;
+  background: url('../images/carbon_bg_small.jpg') repeat repeat;
 
 }
 .program-link-wrap{
