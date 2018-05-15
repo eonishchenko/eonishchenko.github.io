@@ -1,0 +1,352 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    background-color: #777;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url('../images/Tsunami_Obolon.jpg') center bottom;
+}
+div,header,footer,main{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1,h2,h3,h4,h5,h6,p,ul,li,span,img,select,input{
+    line-height: 1;
+   // font-size: 0;
+    margin: 0;
+    padding: 0;
+    color: #0af;
+}
+button, select, input{
+    //border: none;
+    font-family: 'Open Sans', sans-serif;
+}
+input:focus, input:active{
+  border: none;
+  -webkit-outline: none;
+  -moz-outline: none;
+  -ms-outline: none;
+  -o-outline: none;
+  outline: none;
+}
+
+img{
+    vertical-align: middle;
+    max-width: 100%;
+    border: 0;
+}
+
+.cf:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*Content styles*/
+header{
+  background-color: #2a2a2a;
+  position: fixed;
+  width: 100%;
+  background: url('../images/carbon_bg_small.jpg') repeat repeat;
+}
+
+.logo-wrap{
+  float: left;
+  padding: 1rem;
+}
+.menu-wrap{
+  float: right;
+  padding-top: 0.6rem;
+  padding-right: 0.7rem;
+}
+.menu-items{
+  display: inline-block;
+}
+
+.menu-items > li{
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.2rem;
+  background: url('../images/carbon_bg_small.jpg') repeat repeat;
+}
+.menu-items a{
+  color: #bd9f54;
+  font-size: 0.938rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.menu-items .active{
+  color: #ffb600;
+}
+.menu-items li:hover a{
+  color: #ffb600;
+}
+.menu-item-drop{
+  display: none;
+}
+.menu-items .button-bay{
+  background-color: #0af;
+}
+.button-bay a{
+  color: #fff;
+}
+
+.menu-items .button-bay:hover a{
+  color: #fff;
+}
+
+main{
+  min-height: 94.3vh;
+
+}
+main > div {
+  padding-top: 5rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-height: 100vh;
+}
+main > div > h2{
+  font-size: 1.8rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+main>div:nth-child(odd){
+  background-color: #fff;
+
+}
+main>div:nth-child(even){
+  background-color: #f2f8f9;
+
+}
+
+.section-product{
+  padding-top: 5rem;
+}
+.product-wrap{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 3rem;
+}
+.product-v2,.product-family{
+  width: 45%;
+  text-align: center;
+  float: left;
+  margin: 1rem;
+}
+
+.section-description{}
+.section-description h2{
+  margin-bottom: 1rem;
+}
+
+.section-description p{
+  color: #666;
+  font-size: 1rem;
+  line-height: 1.1;
+  margin-bottom: 1.5rem;
+}
+
+.section-contact{}
+.section-contact p, .section-contact li{
+  color: #666;
+}
+.section-delivery{}
+.section-delivery p, .section-delivery li{
+  color: #666;
+}
+.section-bay{}
+.section-bay p, .section-bay li{
+  color: #666;
+}
+
+footer{
+  background-color: #2a2a2a;
+  min-height: 4.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+    background: url('../images/carbon_bg_small.jpg') repeat repeat;
+
+}
+.program-link-wrap{
+  width: 290px;
+  margin: 0 auto;
+}
+.program-link-wrap a{
+  text-decoration: none;
+}
+.program-link-wrap img{
+  opacity: 0.65;
+}
+.scroll-left-wrap{
+    cursor: pointer;
+    position: absolute;
+    top: 24%;
+    left: 0;
+
+    padding-top: 15rem;
+    padding-right: 5rem;
+    padding-bottom: 15rem;
+    padding-left: 1.4375rem;
+}
+.scroll-right-wrap{
+    cursor: pointer;
+    position: absolute;
+    top: 24%;
+    right: 0;
+
+    padding-top: 15rem;
+    padding-right: 1.4375rem;
+    padding-bottom: 15rem;
+    padding-left: 5rem;
+}
+.scroll-right-wrap:hover .scroll-button > path{
+    fill: #fff;
+}
+.scroll-left-wrap:hover .scroll-button > path{
+    fill: #fff;
+}
+.scroll-down-wrap{
+    position: absolute;
+    bottom: 1.9rem;
+    left: 48.3%;
+}
+.slider-wrap{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.slider-items > li {
+    float: left;
+    width: 20%;
+    background-color:  #aba8a6;
+    height: 2px;
+    display: inline-block;
+}
+.slider-items > li.active{
+    background-color: #fcff19;
+}
+
+.product-description-wrap{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  padding: 1rem 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #666;
+  min-height: 15.5rem;
+}
+.product-description-wrap ul{
+  list-style-type: none;
+}
+.product-description-wrap li{
+  color: #666;
+}
+.product-title{
+  color: #666;
+  font-weight: 100;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+.product-subtitle{
+  color: #666;
+  font-weight: 100;
+  font-size: 1.1rem;
+  line-height: 1.1;
+}
+.product-price{
+  color: #0af;
+  line-height: 2;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+.button-wrap{
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.button-wrap a{
+  background-color: #fff;
+  border-radius: 4px;
+  border: 1px solid #0af;
+  color: #0af;
+  font-size: 1rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-decoration: none;
+}
+.button-wrap a:hover{
+  background-color: #0af;
+  color: #fff;
+}
+@media screen and (max-width: 767px){
+  body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background: url('../images/bg_mobile.jpg') center top;
+  }
+  .product-v2,.product-family{
+    width: 100%;
+    text-align: center;
+    float: none;
+    margin: 0;
+  }
+  .menu-wrap{
+    margin-top: 1rem;
+    margin-right: 1rem;
+    height: 2rem;
+    width: 2rem;
+    background-size: cover;
+    background-image: url("./../images/icon-menu.svg");
+  }
+  .menu-items{
+    display: none;
+  }
+  .expand.menu-wrap > .menu-items {
+    display: inline;
+    position: absolute;
+    left: 0;
+    top: 3.2rem;
+    width: 100%;
+  }
+  .expand.menu-wrap li{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+    border-bottom: 1px solid #bd9f54;
+    background: url('../images/carbon_bg_small.jpg') repeat repeat;
+  }
+  .expand.menu-wrap li:first-child{
+    border-top: 1px solid #bd9f54;
+  }
+  .expand.menu-wrap .button-bay{
+    background-color: #0af;
+  }
+  .menu-items a{
+    font-size: 1.4rem;
+  }
+  .program-link-wrap{
+    text-align: center;
+    width: auto;
+  }
+}
+@media screen and (min-width: 768px) {
+
+}
